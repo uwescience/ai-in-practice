@@ -1,13 +1,13 @@
 repo_directory: html
-name: UW Hackweek
+name: AI Summer Workshop (placeholder name)
 apply:
   url: '#'
   title: Application coming soon
 banner:
-  description: An awesome learning event.
-  start_date: XX Month
-  end_date: XX Month
-  year: 2022
+  description: Summer Workshop in AI Methods for Research
+  start_date: 27 July
+  end_date: 31 July
+  year: 2026
   location: Seattle, WA
   links:
   - url: intro.html
@@ -15,18 +15,54 @@ banner:
     new_window: false
   image: https://geohackweek.github.io/assets/images/banner.jpg
 # The opening session of the event with UTC offset
-event_countdown: "2024-08-07T08:30:00-07:00"
+event_countdown: "2026-07-27T08:30:00-07:00"
 about:
-  description: Hackweeks are participant-driven events that strive to create
-    welcoming spaces for participants to learn new things, build community and
-    gain hands-on experience with collaboration and team science
+  description: Join the [Name of Workshop] for a week of hands-on training in 
+    AI methods for research and an exploratory journey through the AI lifecycle. 
+    We begin with a Foundations Day [or other name] where participants will 
+    learn the fundamentals of training and evaluating deep neural networks for 
+    various applications (such as vision, nlp, etc.). During the remainder of 
+    the workshop participants will work on a project of their choice to explore
+    different phases of the AI research lifecycle, from data collection and 
+    experiment design to communication of results and responsible use.
+  overview: >-
+    We welcome participants from any departments on campus: physical, life, 
+    and social sciences, humanities, engineering, etc. We expect participants 
+    to have some programming experience in a scripting language. The tutorials 
+    will be in Python, but any language can be used for project work. We also 
+    expect some familiarity/experience with basic machine learning concepts. 
+    This workshop aims to focus on how to apply AI in research, so it is 
+    suitable for PhD students, postdocs, research faculty and staff, or 
+    Master's and undergraduate students who are already involved in research. 
   learn_more: https://escience.washington.edu/using-data-science/hackweeks
   links:
     - url: '#'
       title: A sample link
       new_window: True
-applicant_info: UW Hackweek 2022 will take place in October 2022 (virtual or in-person
-  TBD). Applications have not yet opened, but should be anticipated in September 2022.
+projects:
+  description: >-
+    Participants will be invited to develop their own ideas for project work, 
+    ideally building on an existing research project or new exploration. 
+    Throughout the week, participants will apply what they learn directly 
+    to their projects, with tutorial leaders and helpers available to provide 
+    guidance. We encourage participants working on similar problems to
+    collaborate and learn from each other. Our goal is to help you advance 
+    your project forward on the AI workflow lifecycle. On the final day,
+    participants will demo progress and define a concrete plan for continuing
+    the work after the workshop.   
+
+  learn_more: 'projects/index.html'
+tutorials:
+  description: >-
+    Hands-on tutorials introduce participants to core AI and machine learning
+    workflows, from data preparation and model training to evaluation and
+    interpretation. Tutorials are designed to be accessible to beginners
+    while offering depth for more experienced participants, and all materials
+    remain openly available after the event.
+  learn_more: 'tutorials/index.html'
+applicant_info: AI Summer Workshop will take place July 27-31 on the University
+  of Washington Campus. Applications have not yet opened, 
+  but should be anticipated in May 2026.
 team:
   !include team/team.yaml
 schedule:

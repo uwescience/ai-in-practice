@@ -1,6 +1,6 @@
 # Projects
 
-During hackweeks we invite participants to collaborate in small group project teams (usually 5-7 people). Projects provide unique opportunities for networking, advancing research and learning new things.
+Project text
 
 ```{image} ../img/projects-montage.png
 :alt: picture of people interacting during hackweek project work
