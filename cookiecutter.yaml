@@ -55,14 +55,13 @@ projects:
   learn_more: 'projects/index.html'
 tutorials:
   description: >-
-    Workshop tutorials will provide a broad overview of modern AI tools for 
+    Workshop tutorials will provide a broad overview of modern AI methods & tools for 
     research. Day 1 is an intensive day focused on the  
-    fundamentals of AI for research. We will learn how neural networks are 
+    fundamentals of AI. Participants will learn how neural networks are 
     trained and evaluated, how vision and sequence models work, and how 
     transfer learning lets researchers build on pretrained models rather than 
     starting from scratch. Later tutorials illustrate best practices for 
-    applying these tools across a full AI research lifecycle. We will learn 
-    about foundation models, the Hugging Face transformers library, and the 
+    applying these approaches across a full AI research lifecycle. Topics covered will include foundation models, and the 
     practicalities of scaling training and deployment. Dedicated sessions also 
     address how to interpret AI results rigorously and make AI-based research 
     reproducible.
