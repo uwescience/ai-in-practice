@@ -2,12 +2,6 @@
 
 # FAQs
 
-:::{admonition} You can also use a `{dropdown}`
-:class: dropdown
-You can also use a `dropdown` directive, which provides a more compact writing experience and is simpler in the displayed style. See for more information.
-:::
-
-
 :::{admonition} **Q:** Do I need to know Python to participate? 
 :class: dropdown
 
@@ -24,6 +18,7 @@ You can also use a `dropdown` directive, which provides a more compact writing e
 
 :::{admonition} **Q:** I want to build a chatbot! Can you help me?
 :class: dropdown
+:icon: false
 
 **A:**  While we may provide examples of using large language models, we will not dive deeply into any particular application. You are welcome to explore how to build a chatbot during project time, and can provide some references, but it will be expected that you spend time working on it independently.
 :::
@@ -40,7 +35,7 @@ You can also use a `dropdown` directive, which provides a more compact writing e
 **A:** The workshop will prioritize UW participants, but if we have space we can also facilitate some outside participants.
 :::
 
-:::{seealso} **Q:** Am I required to participate in all tutorials and activities?
+:::{admonition} **Q:** Am I required to participate in all tutorials and activities?
 :class: dropdown
 
 **A:** Yes, we expect all participants to be actively engaged in all workshop activities during the days they have signed up for.
