@@ -4,7 +4,7 @@
 
 :::{seealso} You can also use a `{dropdown}`
 :class: dropdown
-You can also use a {myst:directive}`dropdown` directive, which provides a more compact writing experience and is simpler in the displayed style. See for more information.
+You can also use a `dropdown` directive, which provides a more compact writing experience and is simpler in the displayed style. See for more information.
 :::
 
 
