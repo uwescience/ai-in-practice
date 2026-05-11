@@ -2,10 +2,11 @@
 
 # FAQs
 
-:::{admonition} **Q:** Do I need to know Python to participate? 
+::: {admonition} **Q:** Do I need to know Python to participate? 
 :class: dropdown
 
 **A:** Since the tutorials will be in Python, we recommend participants to get acquanted with the Python syntax, so that they are able to follow the content. We recommend reviewing this introductory [Python programming lesson](https://swcarpentry.github.io/python-novice-gapminder/) before the workshop. You are welcome to use any programming language for project work but that would require finding suitable ML libraries.
+
 :::
 
 ```{admonition} Check Your Understanding
