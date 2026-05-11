@@ -17,8 +17,8 @@
 :::
 
 :::{admonition} **Q:** I want to build a chatbot! Can you help me?
-:class: dropdown
-:icon: false
+:class: dropdown no-icon
+
 
 **A:**  While we may provide examples of using large language models, we will not dive deeply into any particular application. You are welcome to explore how to build a chatbot during project time, and can provide some references, but it will be expected that you spend time working on it independently.
 :::
