@@ -2,6 +2,12 @@
 
 # FAQs
 
+:::{seealso} You can also use a `{dropdown}`
+:class: dropdown
+You can also use a {myst:directive}`dropdown` directive, which provides a more compact writing experience and is simpler in the displayed style. See [](#dropdowns) for more information.
+:::
+
+
 :::{seealso} **Q:** Do I need to know Python to participate? 
 :class: dropdown
 
