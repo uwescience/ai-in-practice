@@ -26,7 +26,7 @@
 
 :::{dropdown} Q: Can I apply to this workshop if I am not affiliated with UW? 
 
-**A:** The workshop will prioritize UW participants, but if we have space we can also facilitate some outside participants.
+**A:** The workshop will prioritize UW participants, but if we have space we can also accommodate some outside participants.
 :::
 
 :::{dropdown} Q: Am I required to participate in all tutorials and activities?
