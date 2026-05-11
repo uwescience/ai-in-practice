@@ -2,8 +2,9 @@
 
 # FAQs
 
-##### Q: Do I need to know Python to participate? 
-A: Since the tutorials will be in Python, we recommend participants to get acquanted with the Python syntax, so that they are able to follow the content. We recommend reviewing this introductory [Python programming lesson](https://swcarpentry.github.io/python-novice-gapminder/) before the workshop. You are welcome to use any programming language for project work but that would require finding suitable ML libraries. 
+:::{dropdown} **Q:** Do I need to know Python to participate? 
+**A:** Since the tutorials will be in Python, we recommend participants to get acquanted with the Python syntax, so that they are able to follow the content. We recommend reviewing this introductory [Python programming lesson](https://swcarpentry.github.io/python-novice-gapminder/) before the workshop. You are welcome to use any programming language for project work but that would require finding suitable ML libraries.
+:::
 
 ##### Q: The tutorials do not cover topics that I need to learn for my project idea. Do I have to change the idea in order to attend this workshop?
 A: It will be common that participants need to learn about topics not discussed in the tutorials since there is very limited time to cover everything. The goal of the project time would be to dive deeper into your task, and learn by doing. Hopefully, there will be other people at the event working on similar topics, and discussing your challenges with the helpers will be productive. 
