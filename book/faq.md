@@ -2,23 +2,19 @@
 
 # FAQs
 
-:::{admonition} **Q:** Do I need to know Python to participate? 
-:class: dropdown
+:::{dropdown} Q: Do I need to know Python to participate? 
 
 **A:** Since the tutorials will be in Python, we recommend participants to get acquanted with the Python syntax, so that they are able to follow the content. We recommend reviewing this introductory [Python programming lesson](https://swcarpentry.github.io/python-novice-gapminder/) before the workshop. You are welcome to use any programming language for project work but that would require finding suitable ML libraries.
 
 :::
 
-:::{admonition} **Q:** The tutorials do not cover topics that I need to learn for my project idea. Do I have to change the idea in order to attend this workshop?
-:class: dropdown
+:::{dropdown} Q: The tutorials do not cover topics that I need to learn for my project idea. Do I have to change the idea in order to attend this workshop?
 
 **A:** It will be common that participants need to learn about topics not discussed in the tutorials since there is very limited time to cover everything. The goal of the project time would be to dive deeper into your task, and learn by doing. Hopefully, there will be other people at the event working on similar topics, and discussing your challenges with the helpers will be productive. 
 
 :::
 
-:::{admonition} **Q:** I want to build a chatbot! Can you help me?
-:class: dropdown no-icon
-
+:::{dropdown} Q: I want to build a chatbot! Can you help me?
 
 **A:**  While we may provide examples of using large language models, we will not dive deeply into any particular application. You are welcome to explore how to build a chatbot during project time, and can provide some references, but it will be expected that you spend time working on it independently.
 :::
@@ -28,14 +24,12 @@
 **A:** Certainly not. However, this workshop is aimed at participants who are interested in building and applying models on their own, usually in the context of analyzing scientific data, and we would like participants to have introductory programming and machine learning so they are able to follow the tutorials and engage in the project work. 
 :::
 
-:::{admonition} **Q:** Can I apply to this workshop if I am not affiliated with UW? 
-:class: dropdown
+:::{dropdown} Q: Can I apply to this workshop if I am not affiliated with UW? 
 
 **A:** The workshop will prioritize UW participants, but if we have space we can also facilitate some outside participants.
 :::
 
-:::{admonition} **Q:** Am I required to participate in all tutorials and activities?
-:class: dropdown
+:::{dropdown} Q: Am I required to participate in all tutorials and activities?
 
 **A:** Yes, we expect all participants to be actively engaged in all workshop activities during the days they have signed up for.
 :::
