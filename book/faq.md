@@ -21,7 +21,7 @@
 
 :::{dropdown} Q: I want to find the right AI tool for my work. Do I need to learn programming and machine learning to use AI tools?
 
-**A:** Certainly not. However, this workshop is aimed at participants who are interested in building and applying models on their own, usually in the context of analyzing scientific data, and we would like participants to have introductory programming and machine learning so they are able to follow the tutorials and engage in the project work. 
+**A:** The workshop focuses on building and applying models for scientific data analysis, which requires writing code and understanding machine learning concepts. If you're looking to use AI tools without programming, then there are other resources better suited to that goal.
 :::
 
 :::{dropdown} Q: Can I apply to this workshop if I am not affiliated with UW? 
