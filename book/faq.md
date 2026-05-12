@@ -31,5 +31,5 @@
 
 :::{dropdown} Q: Am I required to participate in all tutorials and activities?
 
-**A:** Yes, we expect all participants to be actively engaged in all workshop activities during the days they have signed up for.
+**A:** Yes, participation is mandatory for all days that you have signed up for. We expect all participants to be actively engaged in all workshop activities. In the event of an emergency, please let the organizers know as soon as possible so we can help you stay on track.
 :::
