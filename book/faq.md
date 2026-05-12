@@ -16,7 +16,7 @@
 
 :::{dropdown} Q: I want to build a chatbot! Can you help me?
 
-**A:**  While we may provide examples of using large language models, we will not dive deeply into any particular application. You are welcome to explore how to build a chatbot during project time, and can provide some references, but it will be expected that you spend time working on it independently.
+**A:**  Our tutorials cover foundation models and the methods that power chatbots, but we don't focus on chatbot-building specifically. You are welcome to pursue building a chatbot during your project time, and instructors can point you toward relevant resources. However, if your primary interest is in LLM-powered applications (chatbots, assistants, agents) rather than applying AI methods to research questions, this institute might not be the best fit., this institute might not be the best fit.
 :::
 
 :::{dropdown} Q: I want to find the right AI tool for my work, but I have no experience with programming or machine learning. Is this event a good fit for me?```
