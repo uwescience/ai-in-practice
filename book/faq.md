@@ -19,7 +19,7 @@
 **A:**  While we may provide examples of using large language models, we will not dive deeply into any particular application. You are welcome to explore how to build a chatbot during project time, and can provide some references, but it will be expected that you spend time working on it independently.
 :::
 
-:::{dropdown} Q: I want to find the right AI tool for my work. Do I need to learn programming and machine learning to use AI tools?
+:::{dropdown} Q: I want to find the right AI tool for my work, but I have no experience with programming or machine learning. Is this event a good fit for me?```
 
 **A:** The workshop focuses on building and applying models for scientific data analysis, which requires writing code and understanding machine learning concepts. If you're looking to use AI tools without programming, then there are other resources better suited to that goal.
 :::
