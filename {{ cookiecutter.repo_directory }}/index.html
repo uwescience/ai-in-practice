@@ -172,21 +172,6 @@
         </div>
         {%- endif %}
 
-        <div id="countdown-intro" class="event-countdown text-center mb-4">
-            <h4 class="countdown-intro mb-2 text-center">
-                {{ cookiecutter.banner.year }} Event Starts In:
-            </h4>
-            <div id="countdown-box"
-                 class="countdown-box"
-                 data-start-date="{{ cookiecutter.event_countdown }}">
-                {% for unit in ['days', 'hours', 'minutes', 'seconds'] %}
-                <span class="{{ unit }}">
-                    <span class="number"></span>
-                    <span class="unit">{{ unit.capitalize() }}</span>
-                </span>
-                {% endfor %}
-            </div>
-        </div>
     </div>
 </section>
 <!--//about-section-->
