@@ -26,16 +26,17 @@ about:
     supported by instructors and peers. Our goal is for every participant 
     to develop skills in leveraging AI to accelerate discovery 
     while adhering to best research practices.
-  overview: >-
-    We welcome participants from any department at the University of 
-    Washington, including the humanities, physical and life sciences, social 
-    sciences, engineering, and beyond. We expect participants to have some 
-    programming experience (Python, R, or similar). Tutorials will be in 
-    Python, but any language can be used for project work. We also expect 
-    some familiarity with basic machine learning concepts. This workshop 
-    focuses on how to apply AI in research, so it is suitable for PhD 
-    students, postdocs, research faculty and staff, and Master's or 
-    undergraduate students who are already involved in research. 
+  overview:
+    - label: "Who should apply?"
+      bullets:
+        - Open to participants from any discipline.
+        - "Aimed at researchers willing to apply AI methods in their work, i.e. PhD
+          students, postdocs, research faculty and staff, and Master's or
+          undergraduate students who are already involved in research."
+    - label: "Prerequisites:"
+      bullets:
+        - programming experience in a scripting language such as Python or R
+        - familiarity with one or more machine learning approaches, such as logistic regression or random forests
   learn_more: https://escience.washington.edu/using-data-science/hackweeks
   links:
     - url: '#'

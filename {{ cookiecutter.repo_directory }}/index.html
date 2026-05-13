@@ -161,7 +161,14 @@
         </div>
         {%- if cookiecutter.about.overview %}
         <div class="section-intro single-col-max mx-auto mb-4">
-            {{ cookiecutter.about.overview }}
+            {%- for group in cookiecutter.about.overview %}
+            <p><strong>{{ group.label }}</strong></p>
+            <ul>
+                {%- for item in group.bullets %}
+                <li>{{ item }}</li>
+                {%- endfor %}
+            </ul>
+            {%- endfor %}
         </div>
         {%- endif %}
 
