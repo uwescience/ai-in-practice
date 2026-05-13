@@ -35,8 +35,9 @@ about:
           undergraduate students who are already involved in research."
     - label: "Prerequisites:"
       bullets:
-        - programming experience in a scripting language such as Python or R
-        - familiarity with one or more machine learning approaches, such as logistic regression or random forests
+        - Programming experience in a scripting language such as Python or R.
+        - Familiarity with one or more machine learning approaches, such as 
+          logistic regression or random forests.
   learn_more: https://escience.washington.edu/using-data-science/hackweeks
   links:
     - url: '#'
