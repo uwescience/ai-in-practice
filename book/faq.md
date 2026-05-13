@@ -16,10 +16,10 @@
 
 :::{dropdown} Q: I want to build a chatbot! Can you help me?
 
-**A:**  Our tutorials cover foundation models and the methods that power chatbots, but we don't focus on chatbot-building specifically. You are welcome to pursue building a chatbot during your project time, and instructors can point you toward relevant resources. However, if your primary interest is in LLM-powered applications (chatbots, assistants, agents) rather than applying AI methods to research questions, this institute might not be the best fit., this institute might not be the best fit.
+**A:**  Our tutorials cover foundation models and the methods that power chatbots, but we don't focus on chatbot-building specifically. You are welcome to pursue building a chatbot during your project time, and instructors can point you toward relevant resources. However, if your primary interest is in LLM-powered applications (chatbots, assistants, agents) rather than applying AI methods to research questions, this program might not be the best fit.
 :::
 
-:::{dropdown} Q: I want to find the right AI tool for my work, but I have no experience with programming or machine learning. Is this event a good fit for me?```
+:::{dropdown} Q: I want to find the right AI tool for my work, but I have no experience with programming or machine learning. Is this event a good fit for me?
 
 **A:** The workshop focuses on building and applying models for scientific data analysis, which requires writing code and understanding machine learning concepts. If you're looking to use AI tools without programming, then there are other resources better suited to that goal.
 :::
