@@ -238,6 +238,9 @@
 {%- if cookiecutter.schedule %}
 <section id="schedule" class="schedule-section section">
     <div class="container">
+        {%- if cookiecutter.schedule.schedule_style == "overview" %}
+        <h3 class="section-heading text-center mb-5">Tentative Schedule</h3>
+        {%- else %}
         <h3 class="section-heading text-center mb-1">Schedule</h3>
         <h4 class="text-center mb-5">
             All times listed below are {{ cookiecutter.schedule.timezone }}.
@@ -246,10 +249,87 @@
                 Time Zone Map
             </a>
             to figure out times in your location.</h4>
+        {%- endif %}
+        {%- if cookiecutter.schedule.schedule_style == "overview" %}
+        {# ── OVERVIEW TABLE ────────────────────────────────────────────────── #}
+        <div class="table-responsive">
+        <table class="table table-bordered text-center align-top" style="table-layout:fixed;">
+            <thead>
+                <tr>
+                    <th style="width:12%; background:#4b2e83; color:#fff;"></th>
+                    <th style="background:#4b2e83; color:#fff;">Monday (July 27)</th>
+                    <th style="background:#4b2e83; color:#fff;">Tuesday (July 28)</th>
+                    <th style="background:#4b2e83; color:#fff;">Wednesday (July 29)</th>
+                    <th style="background:#4b2e83; color:#fff;">Thursday (July 30)</th>
+                    <th style="background:#4b2e83; color:#fff;">Friday (July 31)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="background:#f0ebf8;">
+                    <td class="fw-bold align-middle" style="color:#4b2e83;">Tutorials</td>
+                    <td class="text-start">
+                        <ul class="mb-0 ps-3">
+                            <li>Introduction to Neural Networks: training, evaluation</li>
+                            <li>Vision models and applications</li>
+                            <li>Sequence models and applications</li>
+                            <li>Transfer Learning</li>
+                        </ul>
+                    </td>
+                    <td class="text-start">
+                        <ul class="mb-0 ps-3">
+                            <li>Overview of the AI lifecycle</li>
+                            <li>Foundation Models</li>
+                            <li>Introduction to Hugging Face Hub Ecosystem</li>
+                        </ul>
+                    </td>
+                    <td class="text-start">
+                        <ul class="mb-0 ps-3">
+                            <li>Scaling AI model training/deployment</li>
+                            <li>Generative AI for research workflows</li>
+                        </ul>
+                    </td>
+                    <td class="text-start">
+                        <ul class="mb-0 ps-3">
+                            <li>Interpreting and communicating ML/AI results</li>
+                            <li>Improving project reproducibility</li>
+                        </ul>
+                    </td>
+                    <td class="text-muted fst-italic align-middle">No tutorials</td>
+                </tr>
+                <tr style="background:#faf8f3;">
+                    <td class="fw-bold align-middle" style="color:#85754d;">Project Work</td>
+                    <td class="text-muted fst-italic align-middle">No project work</td>
+                    <td class="text-start">
+                        <ul class="mb-0 ps-3">
+                            <li>Project scoping and consulting (3 hours)</li>
+                        </ul>
+                    </td>
+                    <td class="text-start">
+                        <ul class="mb-0 ps-3">
+                            <li>Project work (4 hours)</li>
+                        </ul>
+                    </td>
+                    <td class="text-start">
+                        <ul class="mb-0 ps-3">
+                            <li>Project work (5 hours)</li>
+                        </ul>
+                    </td>
+                    <td class="text-start">
+                        <ul class="mb-0 ps-3">
+                            <li>Project work (4 hours)</li>
+                            <li>Project sharing (2 hours)</li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+
+        {%- else %}
+        {# ── TABS (day-by-day detail from schedule.yaml) ───────────────────── #}
         {%- if cookiecutter.schedule["tabs"] %}
         <!-- Nav tabs -->
-        <ul class="schedule-nav nav nav-pills nav-fill" id="myTab"
-            role="tablist">
+        <ul class="schedule-nav nav nav-pills nav-fill" id="myTab" role="tablist">
             {% for tab in cookiecutter.schedule["tabs"] %}
             {%- set link_class = '' %}
             {%- set link_state = 'false' %}
@@ -304,23 +384,15 @@
                 {%- for content in tab['contents'] %}
                 <div class="item item-talk">
                     <div class="meta">
-                        <h4 class="time mb-3">
-                            {{ content['time'] }}
-                        </h4>
+                        <h4 class="time mb-3">{{ content['time'] }}</h4>
                     </div>
-
                     <div class="content">
-                        <h3 class="title mb-3">
-                            {{ content['title'] }}
-                        </h3>
-
+                        <h3 class="title mb-3">{{ content['title'] }}</h3>
                         {% if 'location' in content %}
-                        <div class="location mb-3"><i
-                            class="fas fa-map-marker-alt me-2"></i>
-                            {{ content['location'] }}
+                        <div class="location mb-3">
+                            <i class="fas fa-map-marker-alt me-2"></i>{{ content['location'] }}
                         </div>
                         {% endif %}
-
                         <div class="desc">
                             {% if 'description' in content and content['description'] is not none %}
                             {%- markdown -%}
@@ -340,9 +412,7 @@
                                 <a class="theme-link"
                                    href="#{{modal_key}}"
                                    data-bs-toggle="modal"
-                                   data-bs-target="#{{modal_key}}">
-                                    {{ lead }}
-                                </a>
+                                   data-bs-target="#{{modal_key}}">{{ lead }}</a>
                             </div>
                             {%- else %}
                             <div class="name">{{ lead }}</div>
@@ -356,10 +426,7 @@
                             <ul>
                                 {%- for resource in content['resources'] %}
                                 <li>
-                                    <a href="{{resource['url']}}"
-                                       target="_blank">
-                                        {{resource['title']}}
-                                    </a>
+                                    <a href="{{resource['url']}}" target="_blank">{{resource['title']}}</a>
                                 </li>
                                 {%- endfor %}
                             </ul>
@@ -375,6 +442,7 @@
             {% endfor %}
         </div>
         <!--//schedule-tab-content-->
+        {%- endif %}
         {%- endif %}
     </div>
     <!--//container-->
