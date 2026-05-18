@@ -21,21 +21,19 @@ about:
     AI methods for research, facilitated project work, and self-directed 
     learning. Our workshop is designed for researchers looking to move 
     beyond textbook examples and tackle the challenges of real-world 
-    applications. Tutorials early in the week provide foundational skills 
-    that participants will apply during self-directed project work, 
-    supported by instructors and peers. Our goal is for every participant 
-    to develop skills in leveraging AI to accelerate discovery 
-    while adhering to best research practices.
-  overview: >-
-    We welcome participants from any department at the University of 
-    Washington, including the humanities, physical and life sciences, social 
-    sciences, engineering, and beyond. We expect participants to have some 
-    programming experience (Python, R, or similar). Tutorials will be in 
-    Python, but any language can be used for project work. We also expect 
-    some familiarity with basic machine learning concepts. This workshop 
-    focuses on how to apply AI in research, so it is suitable for PhD 
-    students, postdocs, research faculty and staff, and Master's or 
-    undergraduate students who are already involved in research. 
+    applications. 
+  overview:
+    - label: "Who should apply?"
+      bullets:
+        - Open to participants from any discipline.
+        - "Aimed at researchers willing to apply AI methods in their work, i.e. PhD
+          students, postdocs, research faculty and staff, and Master's or
+          undergraduate students who are already involved in research."
+    - label: "Prerequisites:"
+      bullets:
+        - Programming experience in a scripting language such as Python or R.
+        - Familiarity with one or more machine learning approaches, such as 
+          logistic regression or random forests.
   learn_more: https://escience.washington.edu/using-data-science/hackweeks
   links:
     - url: '#'
@@ -55,21 +53,19 @@ projects:
   learn_more: 'projects/index.html'
 tutorials:
   description: >-
-    Workshop tutorials will provide a broad overview of modern AI methods & tools for 
-    research. Day 1 is an intensive day focused on the  
-    fundamentals of AI. Participants will learn how neural networks are 
-    trained and evaluated, how vision and sequence models work, and how 
+    Workshop tutorials will provide a broad overview of modern AI methods 
+    and tools for research. On Day 1 participants will learn how neural networks
+    are trained and evaluated, how vision and sequence models work, and how 
     transfer learning lets researchers build on pretrained models rather than 
-    starting from scratch. Later tutorials illustrate best practices for 
-    applying these approaches across a full AI research lifecycle. Topics covered will include foundation models, and the 
-    practicalities of scaling training and deployment. Dedicated sessions also 
-    address how to interpret AI results rigorously and make AI-based research 
-    reproducible.
+    starting from scratch. Later tutorials will illustrate best practices for 
+    applying these approaches across a full AI research lifecycle. Other topics 
+    will include foundation models, and the practicalities of scaling 
+    training and deployment. Dedicated sessions also address how to interpret 
+    AI results rigorously and make AI-based research reproducible.
 
   learn_more: 'tutorials/index.html'
-applicant_info: AI Summer Workshop will take place July 27-31 on the University
-  of Washington Campus. Applications have not yet opened, 
-  but should be anticipated in May 2026.
+applicant_info: Still have questions? Visit our Jupyter Book for 
+  additional details!
 team:
   !include team/team.yaml
 schedule:
