@@ -1,3 +1,4 @@
+schedule_style: overview   # "overview" or "tabs"
 timezone: UTC -7 (Pacific Daylight Time)
 tabs:
 - title: Day 1
