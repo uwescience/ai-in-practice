@@ -35,6 +35,7 @@ about:
         - Familiarity with one or more machine learning approaches, such as 
           logistic regression or random forests.
     - label: "Registration Fees"
+      bullets: 
         - UW Student: $30
         - UW Postdoc: $50
         - UW Faculty/Staff: $100
