@@ -72,7 +72,7 @@ tutorials:
     AI results rigorously and make AI-based research reproducible. 
 
   learn_more: 'tutorials/index.html'
-applicant_info: Still have questions? Visit our the Event Resources page for 
+applicant_info: Still have questions? Visit our the FAQ page for 
   additional details!
 team:
   !include team/team.yaml
