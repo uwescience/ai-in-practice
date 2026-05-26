@@ -54,7 +54,7 @@ projects:
 tutorials:
   description: >-
     The tutorials will provide a broad overview of modern AI methods 
-    and tools for research and practical examples in Python.
+    and tools for research, and will include hands-on examples in Python.
     On Day 1 participants will learn how neural networks
     are trained and evaluated, how vision and sequence models work, and how 
     transfer learning lets researchers build on pretrained models rather than 
