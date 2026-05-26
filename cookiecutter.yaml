@@ -13,7 +13,7 @@ banner:
   - url: intro.html
     title: Event Jupyter Book
     new_window: false
-  image: https://geohackweek.github.io/assets/images/banner.jpg
+  image: {{ cookiecutter.repo_directory }}/assets/images/gandr-collage-ai-in-practice.jpg
 # The opening session of the event with UTC offset
 event_countdown: "2026-07-27T08:30:00-07:00"
 about:
