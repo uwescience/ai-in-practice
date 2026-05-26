@@ -34,6 +34,13 @@ about:
         - Programming experience in a scripting language such as Python or R.
         - Familiarity with one or more machine learning approaches, such as 
           logistic regression or random forests.
+    - label: "Registration Fees:"
+      bullets: 
+        - "UW Student: $30"
+        - "UW Postdoc: $50"
+        - "UW Faculty/Staff: $100"
+        - "Non-UW: $200"
+        
   learn_more: https://escience.washington.edu/using-data-science/hackweeks
   links:
     - url: '#'
