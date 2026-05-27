@@ -10,9 +10,9 @@ banner:
   year: 2026
   location: Seattle, WA
   links:
-  - url: intro.html
-    title: Event Resources
-    new_window: false
+  # - url: intro.html
+  #   title: Event Resources
+  #   new_window: false
   image: https://geohackweek.github.io/assets/images/banner.jpg
 # The opening session of the event with UTC offset
 event_countdown: "2026-07-27T08:30:00-07:00"
@@ -72,7 +72,7 @@ tutorials:
     AI results rigorously and make AI-based research reproducible. 
 
   learn_more: 'tutorials/index.html'
-applicant_info: Still have questions? Visit our the Event Resources page for 
+applicant_info: Still have questions? Visit our the FAQ page for 
   additional details!
 team:
   !include team/team.yaml
