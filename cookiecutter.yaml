@@ -1,25 +1,26 @@
 repo_directory: html
-name: AI Summer Workshop 
+name: AI in Practice Summer Institute 
 apply:
-  url: '#'
-  title: Application coming soon
+  url: 'https://docs.google.com/forms/d/e/1FAIpQLSfgqqK3ZkTTslzZap02Vm5_FizNi3cFSnbzJnTgf1zH_E9I8Q/viewform'
+  title: Applications Open
+  style: btn-success
 banner:
-  description: Summer Workshop in AI Methods for Research
+  description: A guided journey through the AI research lifecycle
   start_date: 27 July
   end_date: 31 July
   year: 2026
   location: Seattle, WA
   links:
-  - url: intro.html
-    title: Event Jupyter Book
-    new_window: false
-  image: https://geohackweek.github.io/assets/images/banner.jpg
+  # - url: intro.html
+  #   title: Event Resources
+  #   new_window: false
+  image: assets/images/collage-manual-no-logo.png
 # The opening session of the event with UTC offset
 event_countdown: "2026-07-27T08:30:00-07:00"
 about:
   description: Join us for a week of hands-on training in 
     AI methods for research, facilitated project work, and self-directed 
-    learning. Our workshop is designed for researchers looking to move 
+    learning. The AI in Practice Summer Institute is designed for researchers looking to move 
     beyond textbook examples and tackle the challenges of real-world 
     applications. 
   overview:
@@ -34,6 +35,13 @@ about:
         - Programming experience in a scripting language such as Python or R.
         - Familiarity with one or more machine learning approaches, such as 
           logistic regression or random forests.
+    - label: "Registration Fees:"
+      bullets: 
+        - "UW Student: $30"
+        - "UW Postdoc: $50"
+        - "UW Faculty/Staff: $100"
+        - "Non-UW: $200"
+        
   learn_more: https://escience.washington.edu/using-data-science/hackweeks
   links:
     - url: '#'
@@ -49,22 +57,23 @@ projects:
     guidance. We encourage participants working on similar problems to 
     collaborate and learn from each other. On the final 
     day, participants will share their progress and define a concrete plan 
-    for continuing the work after the workshop. 
+    for continuing the work after the event. 
   learn_more: 'projects/index.html'
 tutorials:
   description: >-
-    Workshop tutorials will provide a broad overview of modern AI methods 
-    and tools for research. On Day 1 participants will learn how neural networks
+    The tutorials will provide a broad overview of modern AI methods 
+    and tools for research, and will include hands-on examples in Python.
+    On Day 1 participants will learn how neural networks
     are trained and evaluated, how vision and sequence models work, and how 
     transfer learning lets researchers build on pretrained models rather than 
     starting from scratch. Later tutorials will illustrate best practices for 
     applying these approaches across a full AI research lifecycle. Other topics 
     will include foundation models, and the practicalities of scaling 
     training and deployment. Dedicated sessions also address how to interpret 
-    AI results rigorously and make AI-based research reproducible.
+    AI results rigorously and make AI-based research reproducible. 
 
   learn_more: 'tutorials/index.html'
-applicant_info: Still have questions? Visit our Jupyter Book for 
+applicant_info: Still have questions? Visit our the FAQ page for 
   additional details!
 team:
   !include team/team.yaml
