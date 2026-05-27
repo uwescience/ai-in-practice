@@ -1,8 +1,9 @@
 repo_directory: html
 name: AI in Practice Summer Institute 
 apply:
-  url: '#'
-  title: Application coming soon
+  url: 'https://docs.google.com/forms/d/e/1FAIpQLSfgqqK3ZkTTslzZap02Vm5_FizNi3cFSnbzJnTgf1zH_E9I8Q/viewform'
+  title: Applications Open
+  style: btn-success
 banner:
   description: A guided journey through the AI research lifecycle
   start_date: 27 July
