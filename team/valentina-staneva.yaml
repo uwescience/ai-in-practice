@@ -5,19 +5,17 @@
     - name: eScience Institute
       url: https://valentina-s.github.io/
     - name: University of Washington
-  bio: (all placeholders to be updated by Valentina) I am a Senior Research 
+  bio: Valentina Staneva is a Senior Research 
     Scientist and Data Science Fellow at the eScience 
     Institute, Paul G. Allen School of Computer Science & Engineering, 
-    University of Washington. As part of my role I collaborate with researchers 
+    University of Washington. As part of her role she collaborates with researchers 
     from a wide range of domains on extracting information from large data 
     sets of various modalities, such as time series, images, videos, audio, 
-    text, etc. I am involved in data science education for audiences at broad 
-    level of experience, and regularly teach workshops on best practices in 
-    machine learning and software engineering. I support open science and 
-    reproducible research, and strive to help others adopt better data science 
-    workflows.
+    text, etc. She also regularly teaches workshops on best practices in 
+    machine learning and software engineering, and supports open science and 
+    reproducible research.
   expertise:
-    - computer vision
+    - Computer Vision
     - Time Series Analysis
     - AI for Environmental Sciences
     - Large Scale Computing
