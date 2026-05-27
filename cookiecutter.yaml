@@ -67,10 +67,10 @@ tutorials:
   description: >-
     The tutorials will provide a broad overview of modern AI methods 
     and tools for research, and will include hands-on examples in Python.
-    On Day 1 participants will learn how neural networks
+    We offer an optional AI Foundations Day during which participants will learn how neural networks
     are trained and evaluated, how vision and sequence models work, and how 
     transfer learning lets researchers build on pretrained models rather than 
-    starting from scratch. Later tutorials will illustrate best practices for 
+    starting from scratch. Follow-up tutorials will illustrate best practices for 
     applying these approaches across a full AI research lifecycle. Other topics 
     will include foundation models, and the practicalities of scaling 
     training and deployment. Dedicated sessions also address how to interpret 
