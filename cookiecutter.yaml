@@ -77,7 +77,7 @@ tutorials:
     AI results rigorously and make AI-based research reproducible. 
 
   learn_more: 'tutorials/index.html'
-applicant_info: Still have questions? Visit our the FAQ page for 
+applicant_info: Still have questions? Visit our FAQ page for 
   additional details!
 team:
   !include team/team.yaml
@@ -92,7 +92,7 @@ sponsors:
 footer:
   social:
   - icon: github
-    link: https://github.com/uwhackweek/
+    link: https://github.com/uwescience/ai-in-practice
 _copy_without_render:
 - assets
 _extensions:
