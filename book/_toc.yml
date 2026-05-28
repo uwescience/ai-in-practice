@@ -7,26 +7,26 @@ parts:
   chapters:
     - file: logistics
     - title: Schedule
-      url: https://uwhackweek.github.io/jupyterbook-template/index.html?jump_to=schedule
+      url: https://ai-in-practice.uwescience.org/index.html?jump_to=schedule
     - file: faq
       
     - title: Team
-      url: https://uwhackweek.github.io/jupyterbook-template/index.html?jump_to=team
+      url: https://ai-in-practice.uwescience.org/index.html?jump_to=team
     - file: CoC
-- caption: Preparation
-  chapters:
-    - file: preliminary/index
-    - file: preliminary/checklist
-    - file: preliminary/git
-- caption: Tutorials
-  chapters:
-    - file: tutorials/index
-- caption: Projects
-  chapters:
-    - file: projects/index
-- caption: Reference
-  chapters:
-    - file: reference/glossary
-    - file: reference/bibliography
-    - file: reference/questions
+# - caption: Preparation
+#  chapters:
+#    - file: preliminary/index
+#    - file: preliminary/checklist
+#    - file: preliminary/git
+# - caption: Tutorials
+#  chapters:
+#    - file: tutorials/index
+# - caption: Projects
+#  chapters:
+#    - file: projects/index
+# - caption: Reference
+#  chapters:
+#    - file: reference/glossary
+#    - file: reference/bibliography
+#    - file: reference/questions
 
