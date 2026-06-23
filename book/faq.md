@@ -8,9 +8,22 @@
 
 :::
 
+:::{dropdown} Q: How much machine learning should I know? 
+
+**A:** We expect participants to have experience with fitting models to data, classic unsupervised/supervised techniques (e.g. PCA, logistic regression/random forests), evaluating performance. To refresh yourself on these topics you can review this introductory [ML lesson](https://carpentries-incubator.github.io/machine-learning-novice-python/) (lessons 1-6). 
+
+:::
+
 :::{dropdown} Q: The tutorials do not cover topics that I need to learn for my project idea. Do I have to change the idea in order to attend this workshop?
 
 **A:** It will be common that participants need to learn about topics not discussed in the tutorials since there is very limited time to cover everything. The goal of the project time would be to dive deeper into your task, and learn by doing. Hopefully, there will be other people at the event working on similar topics, and discussing your challenges with the helpers will be productive. 
+
+:::
+
+
+:::{dropdown} Q: I am not sure if neural network methods are suitable for my problem. What if not? 
+
+**A:** An important step of the AI lifecycle is to determine what methods can potentially address the problem and evaluate their performance. We in fact encourage participants to consider other solutions and take into account their pro's and con's.
 
 :::
 
