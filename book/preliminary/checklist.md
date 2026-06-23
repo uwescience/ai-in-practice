@@ -3,7 +3,7 @@
 
 ```{attention}
 Please make sure to find some time to go through the below material before
-the hackweek.
+the event.
 
 __Upon completion you__:
 <div>
