@@ -53,5 +53,5 @@
 
 :::{dropdown} Q: Will I collaborate closely with technical staff to progress on my project?
 
-**A:** Event organizers, instructors, and helpers will be around to facilitate project scoping, advise on methods, provide references and technical guidance. However, we expect participants to drive projects themselves, dive independently in online resources, and try to resolve technical issues on their own. It would be particularly important for researchers to be familiar with the datasets they would like to work with, since staff may not be experienced in domain-specific data or tools. The goal is not to "finish" a project, but to learn and try new ideas, which can be continued after the event.
+**A:** Event organizers, instructors, and helpers will be around to facilitate project scoping, advise on methods, provide references and offer technical guidance. Our expectation of participants is that they drive projects themselves, dive independently in online resources, and work with other participants to advance their learning. In particular, we expect participants to be familiar with the datasets they would like to work with, since staff may not be experienced in domain-specific data or tools. The goal is not to "finish" a project, but to learn and try new ideas, which can be continued after the event.
 :::
