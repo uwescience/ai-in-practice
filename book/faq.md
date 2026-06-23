@@ -33,3 +33,8 @@
 
 **A:** Yes, participation is mandatory for all days that you have signed up for. We expect all participants to be actively engaged in all workshop activities. In the event of an emergency, please let the organizers know as soon as possible so we can help you stay on track.
 :::
+
+:::{dropdown} Q: Will I collaborate closely with technical staff to progress on my project?
+
+**A:**  
+::: Event organizers, instructors, and helpers will be around to facilitate project scoping, advise on methods, provide references and technical guidance. However, we expect participants to drive projects themselves, dive independently in online resources, and try to resolve technical issues on their own. It would be particularly important for researchers to be familiar with the datasets they would like to work with, since staff may not be experienced in domain-specific data or tools. The goal is not to "finish" a project, but to learn and try new ideas, which can be continued after the event.
