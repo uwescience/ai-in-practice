@@ -10,7 +10,7 @@
 
 :::{dropdown} Q: How much machine learning should I know? 
 
-**A:** We expect participants to have experience with fitting models to data, classic unsupervised/supervised techniques (e.g. PCA, logistic regression/random forests), evaluating performance. To refresh yourself on these topics you can review this introductory [ML lesson](https://carpentries-incubator.github.io/machine-learning-novice-python/) (lessons 1-6). 
+**A:** We expect participants to have experience with fitting models to data, classic unsupervised/supervised techniques (e.g. PCA, logistic regression/random forests), evaluating performance. To refresh yourself on these topics you can review this introductory [ML lesson](https://carpentries-incubator.github.io/machine-learning-novice-python/) (1-6). 
 
 :::
 
