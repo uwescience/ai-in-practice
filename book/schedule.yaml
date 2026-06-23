@@ -11,7 +11,7 @@ tabs:
     - Valentina Staneva
     - Anthony Arendt
   - title: Introduction to Neural Networks
-    description: null
+    description: Training and evaluation workflow, loss function, stochastic gradient descent, fully connected networks
     time: 9:15 - 10:15
   - title: Q&A
     description: null
@@ -19,8 +19,8 @@ tabs:
   - title: BREAK
     description: null
     time: 10:30 - 10:45
-  - title: 'Vision: CNNs'
-    description: null
+  - title: 'Vision Models'
+    description: CNNs, computer vision tasks
     time: 10:45 - 11:45
   - title: Q&A
     description: null
@@ -28,8 +28,8 @@ tabs:
   - title: LUNCH
     description: null
     time: 12:00 - 13:00
-  - title: 'Sequence Models (Time series/Language): RNNs, LSTMs'
-    description: null
+  - title: 'Sequence Models'
+    description: RNNs, LSTMs, time series/language tasks
     time: 13:00 - 14:00
   - title: Q&A
     description: null
@@ -37,7 +37,7 @@ tabs:
   - title: BREAK
     description: null
     time: 14:15 - 14:30
-  - title: Transfer Learning
+  - title: Transfer Learning, Embeddings
     description: null
     time: 14:30 - 15:30
   - title: Q&A
@@ -74,9 +74,9 @@ tabs:
   date: Wednesday 29 July
   contents:
   - title: 'Scaling AI: Cloud/Cluster'
-    description: null
+    description: SkyPilot
     time: 9:15 - 10:00
-  - title: Resources Overview/Onboarding
+  - title: Computing Resources Overview
     description: null
     time: 10:00 - 10:30
   - title: BREAK
