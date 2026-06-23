@@ -32,6 +32,10 @@
 **A:**  Our tutorials cover foundation models and the methods that power chatbots, but we don't focus on chatbot-building specifically. You are welcome to pursue building a chatbot during your project time, and instructors can point you toward relevant resources. However, if your primary interest is in LLM-powered applications (chatbots, assistants, agents) rather than applying AI methods to research questions, this program might not be the best fit.
 :::
 
+:::{dropdown} Q: I want to learn about and work on an agentic workflow/AI for software engineering/AI for literature search/writing.
+
+**A:** The AI Summer Institute focuses on AI/ML tools and methods for scientific data analysis. We will offer one tutorial on generative AI for coding/research workflows, but will not be covering more in-depth topics regarding agents, skills and other uses of generative-AI for scientific workflows. Participants wishing to focus on generative AI are welcome to do so during their project work, provided they are open to self-directed and collaborative learning.
+
 :::{dropdown} Q: I want to find the right AI tool for my work, but I have no experience with programming or machine learning. Is this event a good fit for me?
 
 **A:** The workshop focuses on building and applying models for scientific data analysis, which requires writing code and understanding machine learning concepts. If you're looking to use AI tools without programming, then there are other resources better suited to that goal.
