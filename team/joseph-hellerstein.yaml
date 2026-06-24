@@ -1,23 +1,23 @@
 - title: Joseph Hellerstein
-  avatar: https://avatars.githubusercontent.com/u/4993098?v=4?s=100
+  avatar: https://github.com/uwescience/ai-in-practice/blob/main/team/joseph-hellerstein.jpg
   role: Senior Data Science Fellow
   organizations:
     - name: eScience Institute
-    - name: Applied Physics Laboratory
-  bio: Anthony is leading the eScience Institute's Hackweek-as-a-Service program.
-    He is an advocate for open, inclusive and collaborative science.
-    He has experience teaching GIS and has been the lead organizer for multiple earth-science themed hackweeks.
-    His background is in cryospheric science and remote sensing.
+    - name: Department of Bioengineering
+    - name: Allen School of Computer Science
+  bio: Joe's primary role in eScience has been teaching. Early on his courses focused on software engineering.
+    More recently is focus is AI-assisted programming. Joe has extensive experience with the design and deployment
+    of computing infrastructure from his previous positions at IBM, Microsoft, and Google. His current research
+    focuses on mathematical and computational models of cellular chemical pathways.
   expertise:
     - open science
-    - community building
-    - GIS
-    - SQL
-    - glaciers
+    - Machine learning
+    - AI-assists and agentic systems
+    - Systems of nonlinear differential equations
     - Python
   social:
     - icon: github
-      link: https://github.com/aaarendt
+      link: https://github.com/joseph-hellerstein
   user_groups:
-    - Facilitator
+    - Content contributor
 
