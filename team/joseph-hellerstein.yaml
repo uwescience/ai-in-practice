@@ -1,5 +1,5 @@
 - title: Joseph Hellerstein
-  avatar: https://github.com/uwescience/ai-in-practice/blob/main/team/joseph-hellerstein.jpg
+  avatar: https://raw.githubusercontent.com/uwescience/ai-in-practice/main/team/joseph-hellerstein.jpg
   role: Senior Data Science Fellow
   organizations:
     - name: eScience Institute
@@ -19,5 +19,4 @@
     - icon: github
       link: https://github.com/joseph-hellerstein
   user_groups:
-    - Content contributor
-
+    - Tutorial Lead
