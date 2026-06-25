@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Event Flyer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --ink:     #1a1a2e;
+      --paper:   #f5f0e8;
+      --accent:  #c0392b;
+      --muted:   #7a6f62;
+      --rule:    #d4c9b8;
+    }
+
+    body {
+      background: #d8d0c4;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      min-height: 100vh;
+      padding: 40px 16px;
+      font-family: 'Inter', sans-serif;
+    }
+
+    .flyer {
+      background: var(--paper);
+      width: 680px;
+      max-width: 100%;
+      padding: 0;
+      border: 1px solid var(--rule);
+      box-shadow: 0 8px 40px rgba(0,0,0,0.18);
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* Top band */
+    .top-band {
+      background: var(--ink);
+      color: var(--paper);
+      text-align: center;
+      padding: 14px 40px;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+    }
+
+    /* Hero */
+    .hero {
+      padding: 56px 56px 40px;
+      border-bottom: 1px solid var(--rule);
+      position: relative;
+    }
+
+    .eyebrow {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 18px;
+    }
+
+    .hero h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(38px, 7vw, 60px);
+      font-weight: 900;
+      line-height: 1.05;
+      color: var(--ink);
+      letter-spacing: -0.5px;
+    }
+
+    .hero h1 em {
+      font-style: italic;
+      color: var(--accent);
+    }
+
+    .hero-sub {
+      margin-top: 20px;
+      font-size: 15px;
+      line-height: 1.7;
+      color: var(--muted);
+      max-width: 480px;
+    }
+
+    /* Accent stripe on the right */
+    .hero::after {
+      content: '';
+      position: absolute;
+      top: 0; right: 0;
+      width: 6px;
+      height: 100%;
+      background: var(--accent);
+    }
+
+    /* Info row */
+    .info-row {
+      display: flex;
+      gap: 0;
+      border-bottom: 1px solid var(--rule);
+    }
+
+    .info-block {
+      flex: 1;
+      padding: 28px 32px;
+      border-right: 1px solid var(--rule);
+    }
+    .info-block:last-child { border-right: none; }
+
+    .info-label {
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 6px;
+    }
+
+    .info-value {
+      font-family: 'Playfair Display', serif;
+      font-size: 17px;
+      font-weight: 700;
+      color: var(--ink);
+      line-height: 1.3;
+    }
+
+    .info-value small {
+      display: block;
+      font-family: 'Inter', sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+      color: var(--muted);
+      margin-top: 3px;
+    }
+
+    /* Body copy columns */
+    .body-section {
+      padding: 40px 56px;
+      border-bottom: 1px solid var(--rule);
+    }
+
+    .section-heading {
+      font-family: 'Playfair Display', serif;
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--ink);
+      margin-bottom: 14px;
+    }
+
+    .body-section p {
+      font-size: 14px;
+      line-height: 1.8;
+      color: var(--muted);
+    }
+
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 32px;
+    }
+
+    /* Speakers */
+    .speakers-section {
+      padding: 40px 56px;
+      border-bottom: 1px solid var(--rule);
+    }
+
+    .speakers-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .speaker-card {
+      background: white;
+      border: 1px solid var(--rule);
+      padding: 20px 16px;
+      text-align: center;
+    }
+
+    .speaker-avatar {
+      width: 52px;
+      height: 52px;
+      border-radius: 50%;
+      background: var(--ink);
+      margin: 0 auto 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Playfair Display', serif;
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--paper);
+    }
+
+    .speaker-name {
+      font-weight: 600;
+      font-size: 13px;
+      color: var(--ink);
+    }
+
+    .speaker-role {
+      font-size: 11px;
+      color: var(--muted);
+      margin-top: 3px;
+    }
+
+    /* CTA */
+    .cta-section {
+      background: var(--ink);
+      padding: 40px 56px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      flex-wrap: wrap;
+    }
+
+    .cta-text {
+      color: var(--paper);
+    }
+
+    .cta-text p {
+      font-size: 12px;
+      color: #a09882;
+      margin-top: 4px;
+    }
+
+    .cta-text strong {
+      font-family: 'Playfair Display', serif;
+      font-size: 20px;
+      font-weight: 700;
+    }
+
+    .cta-btn {
+      background: var(--accent);
+      color: white;
+      border: none;
+      padding: 14px 28px;
+      font-family: 'Inter', sans-serif;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      cursor: pointer;
+      white-space: nowrap;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .cta-btn:hover {
+      background: #a93226;
+    }
+
+    /* Footer */
+    .footer {
+      padding: 18px 56px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .footer-text {
+      font-size: 11px;
+      color: var(--muted);
+    }
+
+    .footer-logo {
+      font-family: 'Playfair Display', serif;
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--ink);
+      letter-spacing: 0.04em;
+    }
+
+    @media (max-width: 600px) {
+      .hero, .body-section, .speakers-section, .cta-section, .footer {
+        padding-left: 28px;
+        padding-right: 28px;
+      }
+      .two-col { grid-template-columns: 1fr; }
+      .speakers-grid { grid-template-columns: 1fr 1fr; }
+      .info-row { flex-direction: column; }
+      .info-block { border-right: none; border-bottom: 1px solid var(--rule); }
+      .info-block:last-child { border-bottom: none; }
+    }
+  </style>
+</head>
+<body>
+
+<article class="flyer">
+
+  <div class="top-band">Presented by Lorem Ipsum Society · Free Admission</div>
+
+  <div class="hero">
+    <p class="eyebrow">Annual Symposium · 2026</p>
+    <h1>Lorem <em>Ipsum</em><br>Dolor Sit Amet</h1>
+    <p class="hero-sub">
+      Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+    </p>
+  </div>
+
+  <div class="info-row">
+    <div class="info-block">
+      <div class="info-label">Date</div>
+      <div class="info-value">15 August 2026<small>Doors open 9:00 AM</small></div>
+    </div>
+    <div class="info-block">
+      <div class="info-label">Location</div>
+      <div class="info-value">Magna Hall<small>123 Adipiscing Ave, Suite 4</small></div>
+    </div>
+    <div class="info-block">
+      <div class="info-label">Admission</div>
+      <div class="info-value">Free Entry<small>Registration required</small></div>
+    </div>
+  </div>
+
+  <div class="body-section">
+    <div class="two-col">
+      <div>
+        <h2 class="section-heading">About the Event</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+      </div>
+      <div>
+        <h2 class="section-heading">What to Expect</h2>
+        <p>
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="speakers-section">
+    <h2 class="section-heading">Featured Speakers</h2>
+    <div class="speakers-grid">
+      <div class="speaker-card">
+        <div class="speaker-avatar">A</div>
+        <div class="speaker-name">Aenean Porta</div>
+        <div class="speaker-role">Consectetur Institute</div>
+      </div>
+      <div class="speaker-card">
+        <div class="speaker-avatar">V</div>
+        <div class="speaker-name">Viverra Nam</div>
+        <div class="speaker-role">Adipiscing Labs</div>
+      </div>
+      <div class="speaker-card">
+        <div class="speaker-avatar">P</div>
+        <div class="speaker-name">Pharetra Dui</div>
+        <div class="speaker-role">Tempor Collective</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cta-section">
+    <div class="cta-text">
+      <strong>Reserve your seat today</strong>
+      <p>Spaces are limited — lorem ipsum dolor sit amet.</p>
+    </div>
+    <a class="cta-btn" href="#">Register Now</a>
+  </div>
+
+  <div class="footer">
+    <span class="footer-text">lorem@ipsum.example · (555) 012-3456 · www.loremipsum.example</span>
+    <span class="footer-logo">Lorem Ipsum Co.</span>
+  </div>
+
+</article>
+
+</body>
+</html>
