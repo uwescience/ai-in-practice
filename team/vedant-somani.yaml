@@ -1,18 +1,20 @@
 - title: Vedant Somani
-  avatar: 
-  role: 
+  avatar: https://escience.washington.edu/wp-content/uploads/2026/03/Vedant-Somani-e1774666374354.jpeg
+  role: Tutorial Lead
   organizations:
-    - name: 
-      url: 
-    - name: University of Washington
-  bio: 
+    - name: UW Libraries
+    - name: eScience Institute
+    - name: Information School
+  bio: Vedant Somani is a Text Mining Student Specialist at the eScience Institute and a Master’s student in Information Management at the University of Washington. His work focuses on applying data science and machine learning to extract insights from complex textual data, with an emphasis on building practical, scalable solutions. He brings a strong foundation in software engineering and has experience developing end-to-end systems, from data collection and processing to analysis and deployment. He is also interested in agentic AI systems and how intelligent workflows can automate and enhance research tasks.
 
   expertise:
-    - ... 
-    - ...
+    - Web scraping
+    - Text mining
+    - NLP models
+    - ETL pipelines
 
   social:
     - icon: github
       link: 
   user_groups:
-    - Instructor
+    - Tutorial Lead
