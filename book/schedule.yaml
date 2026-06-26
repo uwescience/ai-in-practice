@@ -20,7 +20,7 @@ tabs:
     description: null
     time: 10:30 - 10:45
   - title: 'Vision Models'
-    description: CNNs, computer vision tasks
+    description: 'CNNs, computer vision tasks'
     time: 10:45 - 11:45
   - title: Q&A
     description: null
@@ -38,7 +38,7 @@ tabs:
     description: null
     time: 14:15 - 14:30
   - title: Transfer Learning
-    description: embeddings, freezing layers, fine-tuning
+    description: 'embeddings, freezing layers, fine-tuning'
     time: 14:30 - 15:30
   - title: Q&A
     description: null
@@ -59,13 +59,13 @@ tabs:
     description: null
     time: 10:15 - 11:15
   - title: 'Multimodal Models'
-    description: vision transformers, contrastive language-image pretraining
+    description: 'vision transformers, contrastive language-image pretraining'
     time: 11:20 - 12:00
   - title: LUNCH
     description: null
     time: 12:00 - 13:00
   - title: Hugging Face Ecosystem
-    description: loading pretrained models, fine-tuning
+    description: 'loading pretrained models, fine-tuning'
     time: 13:00 - 14:00
   - title: Project Introduction & Scoping
     description: null
@@ -77,7 +77,7 @@ tabs:
   date: Wednesday 29 July
   contents:
   - title: 'Scaling AI'
-    description: SkyPilot: scaling workflows on any infrastructure
+    description: 'SkyPilot: scaling workflows on any infrastructure'
     time: 9:00 - 10:00
   - title: Computing Resources Overview
     description: null
