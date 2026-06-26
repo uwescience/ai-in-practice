@@ -18,6 +18,12 @@ banner:
   image: assets/images/collage-manual-no-logo.png
 # The opening session of the event with UTC offset
 event_countdown: "2026-07-27T08:30:00-07:00"
+helpers:
+  title: Helpers needed!
+  description: >-
+    Do you have skills in applying AI methods for research? Are you interested
+    in sharing your knowledge to help others advance their work? Applications
+    are closed but we are looking for <a href="helper.html">event helpers with technical expertise</a>.
 about:
   description: Join us for a week of hands-on training in 
     AI methods for research, facilitated project work, and self-directed 
