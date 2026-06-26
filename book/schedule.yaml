@@ -1,4 +1,4 @@
-schedule_style: overview   # "overview" or "tabs"
+schedule_style: tabs   # "overview" or "tabs"
 timezone: UTC -7 (Pacific Daylight Time)
 tabs:
 - title: Day 1
@@ -29,7 +29,7 @@ tabs:
     description: null
     time: 12:00 - 13:00
   - title: 'Sequence Models'
-    description: RNNs, LSTMs, time series/language tasks
+    description: RNNs, LSTMs, time series tasks
     time: 13:00 - 14:00
   - title: Q&A
     description: null
@@ -37,8 +37,8 @@ tabs:
   - title: BREAK
     description: null
     time: 14:15 - 14:30
-  - title: Transfer Learning, Embeddings
-    description: null
+  - title: Transfer Learning
+    description: embeddings, freezing layers, fine-tuning
     time: 14:30 - 15:30
   - title: Q&A
     description: null
@@ -46,24 +46,27 @@ tabs:
 - title: Day 2
   date: Tuesday 28 July
   contents:
-  - title: Introduction + Code of Conduct + Ice breaker
+  - title: Introduction + Code of Conduct 
     description: null
-    time: 9:15 - 10:00
+    time: 9:00 - 9:15
   - title: AI Lifecycle Overview
     description: null
-    time: 10:00 - 10:30
-  - title: BREAK
+    time: 9:15 - 9:45
+  - title: Ice Breaker
     description: null
-    time: 10:30 - 10:45
-  - title: 'Model Zoo: Transformers'
+    time: 9:45 - 10:15
+  - title: 'Transformers'
     description: null
-    time: 10:45 - 12:00
+    time: 10:15 - 11:15
+  - title: 'Multimodal Models'
+    description: vision transformers, contrastive language-image pretraining
+    time: 11:20 - 12:00
   - title: LUNCH
     description: null
     time: 12:00 - 13:00
-  - title: Foundation Models
-    description: null
-    time: 13:00 - 14:15
+  - title: Hugging Face Ecosystem
+    description: loading pretrained models, fine-tuning
+    time: 13:00 - 14:00
   - title: Project Introduction & Scoping
     description: null
     time: 14:15 - 15:45
@@ -73,9 +76,9 @@ tabs:
 - title: Day 3
   date: Wednesday 29 July
   contents:
-  - title: 'Scaling AI: Cloud/Cluster'
-    description: SkyPilot
-    time: 9:15 - 10:00
+  - title: 'Scaling AI'
+    description: SkyPilot: scaling workflows on any infrastructure
+    time: 9:00 - 10:00
   - title: Computing Resources Overview
     description: null
     time: 10:00 - 10:30
@@ -99,17 +102,17 @@ tabs:
   contents:
   - title: Communicating Results/Interpretability
     description: null
-    time: 9:15 - 10:30
+    time: 9:15 - 10:15
   - title: BREAK
     description: null
-    time: 10:30 - 10:45
+    time: 10:15 - 10:30
   - title: Project work
     description: null
     time: 10:45 - 12:00
   - title: LUNCH
     description: null
     time: 12:00 - 13:00
-  - title: Reproducibility Activity
+  - title: Reproducibility
     description: null
     time: 13:00 - 14:00
   - title: Project work
