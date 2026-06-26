@@ -1,0 +1,22 @@
+- title: Joseph Hellerstein
+  avatar: https://avatars.githubusercontent.com/u/11179077?v=4
+  role: Senior Data Science Fellow
+  organizations:
+    - name: eScience Institute
+    - name: Department of Bioengineering
+    - name: Allen School of Computer Science
+  bio: Joe's primary role in eScience has been teaching. Early on his courses focused on software engineering.
+    More recently is focus is AI-assisted programming. Joe has extensive experience with the design and deployment
+    of computing infrastructure from his previous positions at IBM, Microsoft, and Google. His current research
+    focuses on mathematical and computational models of cellular chemical pathways.
+  expertise:
+    - open science
+    - Machine learning
+    - AI-assists and agentic systems
+    - Systems of nonlinear differential equations
+    - Python
+  social:
+    - icon: github
+      link: https://github.com/joseph-hellerstein
+  user_groups:
+    - Tutorial Lead

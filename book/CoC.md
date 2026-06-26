@@ -1,8 +1,8 @@
 # Participant Conduct
 
-We require all participants in the University of Washington (UW) eScience Hackweek program to comply with the [eScience Code of Conduct](https://escience.washington.edu/about/code-of-conduct/) copied below.
+We require all participants in the University of Washington (UW) eScience programs to comply with the [eScience Code of Conduct](https://escience.washington.edu/about/code-of-conduct/) copied below.
 
-Hackweek participants are intentionally diverse across many categories including academic standing, domain field, technical experience, etc., and we expect everyone to respect all perspectives represented. Please also read the [eScience Equity Statement](https://escience.washington.edu/about/equity-statement/).
+Participants are intentionally diverse across many categories including academic standing, domain field, technical experience, etc., and we expect everyone to respect all perspectives represented. Please also read the [eScience Equity Statement](https://escience.washington.edu/about/equity-statement/).
 
 ## Code of Conduct
 

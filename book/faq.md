@@ -8,9 +8,22 @@
 
 :::
 
+:::{dropdown} Q: How much machine learning should I know? 
+
+**A:** We expect participants to have experience with fitting models to data, classic unsupervised/supervised techniques (e.g. PCA, logistic regression/random forests), evaluating performance. To refresh yourself on these topics you can review this introductory [ML lesson](https://carpentries-incubator.github.io/machine-learning-novice-python/) (1-6). 
+
+:::
+
 :::{dropdown} Q: The tutorials do not cover topics that I need to learn for my project idea. Do I have to change the idea in order to attend this workshop?
 
 **A:** It will be common that participants need to learn about topics not discussed in the tutorials since there is very limited time to cover everything. The goal of the project time would be to dive deeper into your task, and learn by doing. Hopefully, there will be other people at the event working on similar topics, and discussing your challenges with the helpers will be productive. 
+
+:::
+
+
+:::{dropdown} Q: I am not sure if neural network methods are suitable for my problem. What if not? 
+
+**A:** An important step of the AI lifecycle is to determine what methods can potentially address the problem and evaluate their performance. We in fact encourage participants to consider other solutions and take into account their pro's and con's.
 
 :::
 
@@ -18,6 +31,10 @@
 
 **A:**  Our tutorials cover foundation models and the methods that power chatbots, but we don't focus on chatbot-building specifically. You are welcome to pursue building a chatbot during your project time, and instructors can point you toward relevant resources. However, if your primary interest is in LLM-powered applications (chatbots, assistants, agents) rather than applying AI methods to research questions, this program might not be the best fit.
 :::
+
+:::{dropdown} Q: I want to learn about and work on an agentic workflow/AI for software engineering/AI for literature search/writing.
+
+**A:** The AI Summer Institute focuses on AI/ML tools and methods for scientific data analysis. We will offer one tutorial on generative AI for coding/research workflows, but will not be covering more in-depth topics regarding agents, skills and other uses of generative-AI for scientific workflows. Participants wishing to focus on generative AI are welcome to do so during their project work, provided they are open to self-directed and collaborative learning.
 
 :::{dropdown} Q: I want to find the right AI tool for my work, but I have no experience with programming or machine learning. Is this event a good fit for me?
 
@@ -32,4 +49,9 @@
 :::{dropdown} Q: Am I required to participate in all tutorials and activities?
 
 **A:** Yes, participation is mandatory for all days that you have signed up for. We expect all participants to be actively engaged in all workshop activities. In the event of an emergency, please let the organizers know as soon as possible so we can help you stay on track.
+:::
+
+:::{dropdown} Q: Will I collaborate closely with technical staff to progress on my project?
+
+**A:** Event organizers, instructors, and helpers will be around to facilitate project scoping, advise on methods, provide references and offer technical guidance. Our expectation of participants is that they drive projects themselves, dive independently in online resources, and work with other participants to advance their learning. In particular, we expect participants to be familiar with the datasets they would like to work with, since staff may not be experienced in domain-specific data or tools. The goal is not to "finish" a project, but to learn and try new ideas, which can be continued after the event.
 :::
