@@ -55,7 +55,7 @@ tabs:
   - title: Ice Breaker
     description: null
     time: 9:45 - 10:15
-  - title: 'Transformers'
+  - title: 'Language Models with Transformers'
     description: null
     time: 10:15 - 11:15
   - title: 'Multimodal Models'
