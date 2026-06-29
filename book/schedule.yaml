@@ -80,7 +80,7 @@ tabs:
     description: 'SkyPilot: scaling workflows on any infrastructure'
     time: 9:00 - 10:00
   - title: Computing Resources Overview
-    description: Overview of available resources to UW researchers: Hyak, Tillicum, Cloud credits
+    description: 'Overview of available resources to UW researchers: Hyak, Tillicum, cloud credits'
     time: 10:00 - 10:30
   - title: BREAK
     description: null
