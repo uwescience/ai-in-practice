@@ -38,7 +38,7 @@ tabs:
     description: null
     time: 14:15 - 14:30
   - title: Transfer Learning
-    description: 'Embeddings, freezing layers, fine-tuning'
+    description: 'Freezing layers, embeddings, fine-tuning'
     time: 14:30 - 15:30
   - title: Q&A
     description: null
@@ -124,7 +124,7 @@ tabs:
   - title: Feedback
     description: null
     time: 9:00 - 9:15
-  - title: Project work / wrap-up
+  - title: Project work
     description: null
     time: 9:15 - 12:00
   - title: LUNCH
