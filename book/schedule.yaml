@@ -102,13 +102,13 @@ tabs:
   contents:
   - title: Communicating Results/Interpretability
     description: null
-    time: 9:15 - 10:15
+    time: 9:00 - 10:00
   - title: BREAK
     description: null
-    time: 10:15 - 10:30
+    time: 10:00 - 10:15
   - title: Project work
     description: null
-    time: 10:45 - 12:00
+    time: 10:15 - 12:00
   - title: LUNCH
     description: null
     time: 12:00 - 13:00
@@ -124,27 +124,18 @@ tabs:
   - title: Feedback
     description: null
     time: 9:00 - 9:15
-  - title: Project Standup
-    description: null
-    time: 9:15 - 10:30
-  - title: BREAK
-    description: null
-    time: 10:30 - 10:45
   - title: Project work / wrap-up
     description: null
-    time: 10:45 - 12:00
+    time: 9:15 - 12:00
   - title: LUNCH
     description: null
     time: 12:00 - 13:00
   - title: Project work / wrap-up
     description: null
-    time: 13:00 - 15:00
+    time: 13:00 - 14:00
   - title: Poster Session/Lightning talk session
     description: null
-    time: 15:00 - 15:45
-  - title: Project work / wrap-up
-    description: null
-    time: 15:45 - 16:30
+    time: 14:00 - 16:00
   - title: Discussion & Closing
     description: null
-    time: 16:30 - 17:00
+    time: 16:00 - 16:30
