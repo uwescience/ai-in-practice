@@ -15,9 +15,12 @@ parts:
     - file: tutorials/index
       sections:
         - file: tutorials/slides_embedding_demo
-  
-- file: faq
-- file: CoC
+- caption: FAQ
+  chapters:
+    - file: faq
+- caption: CoC
+  chapters:
+    - file: CoC
 # - caption: Preparation
 #  chapters:
 #    - file: preliminary/index
