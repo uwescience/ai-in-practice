@@ -8,10 +8,18 @@ parts:
     - file: logistics
     - title: Schedule
       url: https://ai-in-practice.uwescience.org/index.html?jump_to=schedule
-    - file: faq
-      
     - title: Team
       url: https://ai-in-practice.uwescience.org/index.html?jump_to=team
+- caption: Tutorials
+  chapters:
+    - file: tutorials/index
+      sections:
+        - file: tutorials/slides_embedding_demo
+- caption: FAQ
+  chapters:
+    - file: faq
+- caption: CoC
+  chapters:
     - file: CoC
 # - caption: Preparation
 #  chapters:
