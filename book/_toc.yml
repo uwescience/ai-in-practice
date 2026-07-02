@@ -8,8 +8,12 @@ parts:
     - file: logistics
     - title: Schedule
       url: https://ai-in-practice.uwescience.org/index.html?jump_to=schedule
+  chapters:
+    - file: tutorials/index
+      sections:
+        - file: tutorials/slides_embedding_demo
+        - file: tutorials/example/tutorial-notebook
     - file: faq
-    - file: tutorials/slides_embedding_demo
     - title: Team
       url: https://ai-in-practice.uwescience.org/index.html?jump_to=team
     - file: CoC
