@@ -43,6 +43,12 @@ tabs:
   - title: Q&A
     description: null
     time: 15:30 - 15:45
+  - title: BREAK
+    description: null
+    time: 15:45 - 16:00
+  - title: Project Consulting (Optional)
+    description: null
+    time: 16:00 - 17:00
 - title: Day 2
   date: Tuesday 28 July
   contents:
@@ -72,7 +78,7 @@ tabs:
     time: 14:15 - 15:45
   - title: Project Consulting
     description: null
-    time: 15:45 - 16:00
+    time: 15:45 - 17:00
 - title: Day 3
   date: Wednesday 29 July
   contents:
