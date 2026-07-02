@@ -9,7 +9,7 @@ parts:
     - title: Schedule
       url: https://ai-in-practice.uwescience.org/index.html?jump_to=schedule
     - file: faq
-      
+    - file: slides_embedding_demo
     - title: Team
       url: https://ai-in-practice.uwescience.org/index.html?jump_to=team
     - file: CoC
