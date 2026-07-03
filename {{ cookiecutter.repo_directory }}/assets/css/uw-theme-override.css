@@ -140,6 +140,9 @@
 .schedule-nav .nav-link:hover {
     color: #4b2e83;
 }
+.schedule-nav .nav-link.active:hover {
+    color: #fff;
+}
 
 /* ── Footer heart icon (gold instead of red) ──────────────────────────────── */
 .footer .fa-heart { color: #b7a57a; }
