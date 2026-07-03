@@ -9,5 +9,5 @@ We expect participants to have experience with fitting models to data, classic u
 ## Concerned About Your Technical Preparation? 
 We are not going to grade you! The goal is to learn! Reviewing the above lessons will help you being more productive during the workshop.
 
-# Package Management
+## Package Management
 Since the AI field changes so fast, packages change fast, and their dependancies change fast. As you are experimenting with new (or old) tools, sooner or later, whether during the workshop or afterwards in your research, you will encounter package compatability issues. Those can be addressed by using virtual environments. You can visit this documentation to learn how to make virtual environments with [mamba](https://mamba.readthedocs.io/en/latest/user_guide/mamba.html). 
