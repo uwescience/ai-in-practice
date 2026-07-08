@@ -28,8 +28,8 @@ tabs:
   - title: LUNCH
     description: null
     time: 12:00 - 13:00
-  - title: 'Sequence Models'
-    description: RNNs, LSTMs, time series tasks
+  - title: Transfer Learning
+    description: 'Freezing layers, embeddings, fine-tuning'
     time: 13:00 - 14:00
   - title: Q&A
     description: null
@@ -37,8 +37,8 @@ tabs:
   - title: BREAK
     description: null
     time: 14:15 - 14:30
-  - title: Transfer Learning
-    description: 'Freezing layers, embeddings, fine-tuning'
+  - title: 'Sequence Models'
+    description: RNNs, LSTMs, time series tasks
     time: 14:30 - 15:30
   - title: Q&A
     description: null
