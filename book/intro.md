@@ -11,5 +11,4 @@
 <--```{admonition} Quick links for the event
 :class: seealso
 * 
-```
--->
+```-->
