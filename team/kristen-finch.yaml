@@ -1,0 +1,15 @@
+- title: Kristen Finch
+  avatar: https://avatars.githubusercontent.com/u/22206944?v=4
+  role: Director of Research Computing Solutions
+  organizations:
+    - name: UW-IT
+  bio: "Kristen leads Research Computing Solutions at the University of Washington, where her team supports researchers across the full spectrum of on-prem and cloud-based computing. The teams's services include UW’s high performance computing systems such as Hyak Klone and the Tillicum GPU cluster, campus storage platforms including Kopah and Lolo, and secure computing environments for sensitive data. She also connects researchers to commercial cloud resources, serving as a campus reseller and advisor for AWS, Google Cloud, and Microsoft Azure for research computing."
+  expertise:
+    - High-performance computing (HPC)
+    - Containers and containerization
+    - Simple Linux Utility Resource Manager (SLURM) for HPC
+  social:
+    - icon: github
+      link: https://github.com/finchnSNPs
+  user_groups:
+    - Tutorial Lead
