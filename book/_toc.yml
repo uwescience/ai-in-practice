@@ -21,9 +21,9 @@ parts:
 # - caption: Tutorials
 #  chapters:
 #    - file: tutorials/index
-# - caption: Projects
-#  chapters:
-#    - file: projects/index
+- caption: Projects
+  chapters:
+   - file: projects/index
 # - caption: Reference
 #  chapters:
 #    - file: reference/glossary
