@@ -5,7 +5,7 @@ format: jb-book
 parts:
 - caption: Details
   chapters:
-    - file: logistics
+#    - file: logistics
     - title: Schedule
       url: https://ai-in-practice.uwescience.org/index.html?jump_to=schedule
     - file: faq
