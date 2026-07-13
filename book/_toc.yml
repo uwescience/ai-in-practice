@@ -13,9 +13,9 @@ parts:
     - title: Team
       url: https://ai-in-practice.uwescience.org/index.html?jump_to=team
     - file: CoC
-# - caption: Preparation
-#  chapters:
-#    - file: preliminary/index
+- caption: Preparation
+  chapters:
+    - file: preliminary/index
 #    - file: preliminary/checklist
 #    - file: preliminary/git
 # - caption: Tutorials
