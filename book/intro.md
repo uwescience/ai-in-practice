@@ -8,7 +8,7 @@
 👩‍💻 During the workshop you will work on a project. Read more about the project scoping on the [projects page](projects/index)
 
 
-<--```{admonition} Quick links for the event
+```{admonition} Quick links for the event
 :class: seealso
-* 
-```-->
+* Slack: [link](https://join.slack.com/t/ai-in-practice/shared_invite/zt-439avaw93-mSL9fzjeAWZrZmSpj8NPoA)
+```
