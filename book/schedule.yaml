@@ -109,7 +109,7 @@ tabs:
   - title: GenAI for Software Development
     description: null
     time: 13:00 - 14:00
-  - title: Project work
+  - title: Project Work
     description: null
     time: 14:00 - 17:00
 - title: Day 4
@@ -124,7 +124,7 @@ tabs:
   - title: BREAK
     description: null
     time: 10:00 - 10:15
-  - title: Project work
+  - title: Project Work
     description: null
     time: 10:15 - 12:00
   - title: LUNCH
@@ -133,7 +133,7 @@ tabs:
   - title: Improving Project Reproducibility
     description: null
     time: 13:00 - 14:00
-  - title: Project work
+  - title: Project Work
     description: null
     time: 14:00 - 17:00
 - title: Day 5
@@ -145,16 +145,16 @@ tabs:
   - title: Feedback
     description: null
     time: 9:00 - 9:15
-  - title: Project work
+  - title: Project Work
     description: null
     time: 9:15 - 12:00
   - title: LUNCH
     description: null
     time: 12:00 - 13:00
-  - title: Project work / wrap-up
+  - title: Project Wrap-up
     description: null
     time: 13:00 - 14:00
-  - title: Poster Session/Lightning talk session
+  - title: Project Sharing
     description: null
     time: 14:00 - 16:00
   - title: Discussion & Closing
