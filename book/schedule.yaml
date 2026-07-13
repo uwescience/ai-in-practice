@@ -4,6 +4,9 @@ tabs:
 - title: Day 1
   date: Monday 27 July
   contents:
+  - title: Registration
+    description: null
+    time: 8:15 - 9:00
   - title: Welcome
     description: null
     time: 9:00 - 9:15
@@ -52,6 +55,9 @@ tabs:
 - title: Day 2
   date: Tuesday 28 July
   contents:
+  - title: Registration
+    description: null
+    time: 8:40 - 9:00
   - title: Introduction + Code of Conduct 
     description: null
     time: 9:00 - 9:15
@@ -82,6 +88,9 @@ tabs:
 - title: Day 3
   date: Wednesday 29 July
   contents:
+  - title: Building Access
+    description: null
+    time: 8:40 - 9:00
   - title: 'Scaling AI'
     description: 'SkyPilot: scaling workflows on any infrastructure'
     time: 9:00 - 10:00
@@ -91,7 +100,7 @@ tabs:
   - title: BREAK
     description: null
     time: 10:30 - 10:45
-  - title: Project work
+  - title: Project Work
     description: null
     time: 10:45 - 12:00
   - title: LUNCH
@@ -100,19 +109,22 @@ tabs:
   - title: GenAI for Software Development
     description: null
     time: 13:00 - 14:00
-  - title: Project work
+  - title: Project Work
     description: null
     time: 14:00 - 17:00
 - title: Day 4
   date: Thursday 30 July
   contents:
+  - title: Building Access
+    description: null
+    time: 8:40 - 9:00
   - title: Communicating Results/Interpretability
     description: null
     time: 9:00 - 10:00
   - title: BREAK
     description: null
     time: 10:00 - 10:15
-  - title: Project work
+  - title: Project Work
     description: null
     time: 10:15 - 12:00
   - title: LUNCH
@@ -121,25 +133,28 @@ tabs:
   - title: Improving Project Reproducibility
     description: null
     time: 13:00 - 14:00
-  - title: Project work
+  - title: Project Work
     description: null
     time: 14:00 - 17:00
 - title: Day 5
   date: Friday 31 July
   contents:
+  - title: Building Access
+    description: null
+    time: 8:40 - 9:00
   - title: Feedback
     description: null
     time: 9:00 - 9:15
-  - title: Project work
+  - title: Project Work
     description: null
     time: 9:15 - 12:00
   - title: LUNCH
     description: null
     time: 12:00 - 13:00
-  - title: Project work / wrap-up
+  - title: Project Wrap-up
     description: null
     time: 13:00 - 14:00
-  - title: Poster Session/Lightning talk session
+  - title: Project Sharing
     description: null
     time: 14:00 - 16:00
   - title: Discussion & Closing
