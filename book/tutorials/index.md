@@ -6,4 +6,4 @@ Below you'll find a table keeping track of all tutorials presented at this event
 
 | Tutorial | Topics | Datasets |  Recording Link |
 | -  | - | - |  - |
-| link | Jupyter Book formatting, ipyleaflet | n/a |  Not recorded |
+| <a href="computing-resources/cloudbank.html" target="_blank" rel="noopener noreferrer">computing resources</a> | Cloudbank tutorial | n/a |  Not recorded |

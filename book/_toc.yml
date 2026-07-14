@@ -18,9 +18,9 @@ parts:
     - file: preliminary/index
 #    - file: preliminary/checklist
 #    - file: preliminary/git
-# - caption: Tutorials
-#  chapters:
-#    - file: tutorials/index
+- caption: Tutorials
+  chapters:
+    - file: tutorials/index
 - caption: Projects
   chapters:
    - file: projects/index
