@@ -3,6 +3,7 @@
 Below you'll find a table keeping track of all tutorials presented at this event:
 
 | Day | Tutorial | Presenter | Topics | Materials |
+|-----|----------|-----------|--------|-----------|
 | Monday 1| Introduction to Neural Networks | Valentina Staneva | -  | - |
 | Monday 2| Vision Models | Valentina Staneva | - | - |
 | Monday 3| Transfer Learning | Joseph Hellerstein | - | - |
