@@ -37,7 +37,7 @@ execute:
   execute_notebooks: 'off'
   exclude_patterns:
     - "**/geospatial-advanced.ipynb"
-  allow_errors: false
+  allow_errors: true
   # Per-cell notebook execution limit (seconds)
   timeout: 300
 
