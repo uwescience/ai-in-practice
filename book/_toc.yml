@@ -13,10 +13,32 @@ parts:
 - caption: Tutorials
   chapters:
     - file: tutorials/index
+    - file: tutorials/foundations
+      title: Foundations
+#      file: tutorials/AI_in_Practice_Day1_1_Intro_NN.md
+#      file: tutorials/AI_in_Practice_Day1_2_CNN.md
       sections:
-        - file: tutorials/slides_embedding_demo
+        - file: tutorials/AI_in_Practice_Day1_1_Intro_NN_slides.md
+          title: 'Intro to Neural Networks: Slides'
         - file: tutorials/AI_in_Practice_Day1_1_Intro_NN.ipynb
+          title: 'Intro to Neural Networks: Notebook'
+        - file: tutorials/AI_in_Practice_Day1_2_CNN.md
+          title: 'Vision Models'
         - file: tutorials/AI_in_Practice_Day1_2_CNN_Flowers.ipynb
+          title: 'CNN Classification Notebook'
+        #- file: tutorials/AI_in_Practice_Day1_3_Transfer_Learning.ipynb
+        #- file: tutorials/AI_in_Practice_Day1_4_Sequence_Models.ipynb
+    - file: tutorials/ai_lifecycle.md
+      title: 'Deep Dive: AI Lifecycle'
+      sections:
+        #- file: tutorials/AI_in_Practice_Day2_1_AI_Lifecycle.md
+        #- file: tutorials/AI_in_Practice_Day2_2_Transformers.md
+        #- file: tutorials/AI_in_Practice_Day2_3_Hugging_Face.ipynb
+        - file: tutorials/AI_in_Practice_Day2_4_Multimodal.md
+          title: 'Multimodal Models'
+        - file: tutorials/AI_in_Practice_Day2_4_CLIP.ipynb
+          title: 'CLIP Notebook'
+
 - caption: FAQ
   chapters:
     - file: faq
