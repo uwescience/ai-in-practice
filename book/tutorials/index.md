@@ -13,7 +13,7 @@ Below you'll find a table keeping track of all tutorials presented at this event
 | Tuesday 3| Multimodal Models | Valentina Staneva | - | - |
 | Tuesday 4| Hugging Face Ecosystem | Joseph Hellerstein | - | - |
 | Wednesday 1 | Scaling AI| Scott Henderson | - | - |
-| Wednesday 2 | Computing Resources Overview | Anthony Arendt, Kristen Finch, Kenny Lam | - | - |
+| Wednesday 2 | <a href="computing-resources/cloudbank.html" target="_blank" rel="noopener noreferrer">Computing Resources Overview</a> | Anthony Arendt, Kristen Finch, Kenny Lam | - | - |
 | Wedensday 3 | GenAI for Software Development | Anthony Arendt | - | - |
 | Thursday 1| - | - | - |
 | Thursday 2| - | - | - |
