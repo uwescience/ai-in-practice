@@ -1,0 +1,16 @@
+- title: Kenny Lam
+  avatar: https://raw.githubusercontent.com/uwescience/ai-in-practice/main/team/img/kinakuji-zoom-in.jpg
+  role: Research Computing Club President
+  organizations:
+    - name: Department of Chemical Engineering
+  bio: Kenny is the president of Research Computing Club and a PhD student in chemical engineering at the University of Washington. As RCC president, he facilitates students' access to UW's supercomputer Hyak Klone and Tillicum GPU cluster, and cloud computing resources with AWS, with a mission to ensure every student has a fair and equal opportunity to fully leverage these powerful tools for their research. His PhD work focuses on computationally designing optical materials with plasmonic colloidal nanoparticles and understanding the fundamental physics governing these systems for practical applications. 
+  expertise:
+    - Optical simulation
+    - colloidal science
+    - material optimization
+    - high-performance computing
+  social:
+    - icon: github
+      link: https://github.com/kenny007890
+  user_groups:
+    - Tutorial Lead
