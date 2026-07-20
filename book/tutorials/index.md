@@ -4,7 +4,7 @@ Below you'll find a table keeping track of all tutorials presented at this event
 
 | Day | Tutorial | Presenter | Materials |
 |-----|----------|-----------|-----------|
-| Monday 1| Introduction to Neural Networks | Valentina Staneva | [Slides](), [Colab](https://colab.research.google.com/drive/1it_mt82b7f7Q8a1FgNjMEqv-7fML03ue?usp=sharing)| 
+| Monday 1| Introduction to Neural Networks | Valentina Staneva | [Slides](https://docs.google.com/presentation/d/1V8yV-T1M2OCbfqSRxAhVRFxYXZrMa5gBiWB5s3t4uec/edit?usp=sharing), [Colab](https://colab.research.google.com/drive/1it_mt82b7f7Q8a1FgNjMEqv-7fML03ue?usp=sharing)| 
 | Monday 2| Vision Models | Valentina Staneva | [Slides](https://docs.google.com/presentation/d/1eBCaMy97ptP68R1VeAt8LT0GwaSzfA2s-N2zt_hU_yY/edit?usp=sharing), [Colab](https://colab.research.google.com/drive/1sJAnrbbFTzT1e2qTFK_2Kt2yTo5Qqnu8?usp=sharing) | 
 | Monday 3| Transfer Learning | Joseph Hellerstein | - | 
 | Monday 4| Sequence Models | Vedant Somani | - | 
