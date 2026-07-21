@@ -3,56 +3,59 @@
 root: intro
 format: jb-book
 parts:
-- caption: Details
-  chapters:
-#    - file: logistics
-    - title: Schedule
-      url: https://ai-in-practice.uwescience.org/index.html?jump_to=schedule
-    - title: Team
-      url: https://ai-in-practice.uwescience.org/index.html?jump_to=team
-- caption: Tutorials
-  chapters:
-    - file: tutorials/index
-    - file: tutorials/foundations
-      title: Foundations
-#      file: tutorials/AI_in_Practice_Day1_1_Intro_NN.md
-#      file: tutorials/AI_in_Practice_Day1_2_CNN.md
-      sections:
-        - file: tutorials/AI_in_Practice_Day1_1_Intro_NN_slides.md
-          title: 'Intro to Neural Networks: Slides'
-        - file: tutorials/AI_in_Practice_Day1_1_Intro_NN.ipynb
-          title: 'Intro to Neural Networks: Notebook'
-        - file: tutorials/AI_in_Practice_Day1_2_CNN.md
-          title: 'Vision Models'
-        - file: tutorials/AI_in_Practice_Day1_2_CNN_Flowers.ipynb
-          title: 'CNN Classification Notebook'
-        #- file: tutorials/AI_in_Practice_Day1_3_Transfer_Learning.ipynb
-        #- file: tutorials/AI_in_Practice_Day1_4_Sequence_Models.ipynb
-    - file: tutorials/ai_lifecycle.md
-      title: 'Deep Dive: AI Lifecycle'
-      sections:
-        #- file: tutorials/AI_in_Practice_Day2_1_AI_Lifecycle.md
-        #- file: tutorials/AI_in_Practice_Day2_2_Transformers.md
-        #- file: tutorials/AI_in_Practice_Day2_3_Hugging_Face.ipynb
-        - file: tutorials/AI_in_Practice_Day2_4_Multimodal.md
-          title: 'Multimodal Models'
-        - file: tutorials/AI_in_Practice_Day2_4_CLIP.ipynb
-          title: 'CLIP Notebook'
+  - caption: Details
+    chapters:
+  #    - file: logistics
+      - title: Schedule
+        url: https://ai-in-practice.uwescience.org/index.html?jump_to=schedule
+      - title: Team
+        url: https://ai-in-practice.uwescience.org/index.html?jump_to=team
+  - caption: Tutorials
+    chapters:
+      - file: tutorials/index
+      - file: tutorials/foundations
+        title: Foundations
+  #      file: tutorials/AI_in_Practice_Day1_1_Intro_NN.md
+  #      file: tutorials/AI_in_Practice_Day1_2_CNN.md
+        sections:
+          - file: tutorials/AI_in_Practice_Day1_1_Intro_NN_slides.md
+            title: 'Intro to Neural Networks (Slides)'
+          - title: 'Intro to Neural Networks (Notebook)'
+            file: tutorials/AI_in_Practice_Day1_1_Intro_NN.ipynb
+          - file: tutorials/AI_in_Practice_Day1_2_CNN.md
+            title: 'Vision Models (Slides)'
+          - file: tutorials/AI_in_Practice_Day1_2_CNN_Flowers.ipynb
+            title: 'CNN Classification Notebook'
+          #- file: tutorials/AI_in_Practice_Day1_3_Transfer_Learning.ipynb
+          #- file: tutorials/AI_in_Practice_Day1_4_Sequence_Models.ipynb
+      - file: tutorials/ai_lifecycle.md
+        title: 'Deep Dive: AI Lifecycle'
+        sections:
+          - file: tutorials/AI_in_Practice_Day2_1_AI_Lifecycle.md
+            title: 'AI Lifecycle Overview (Slides)'
+          #- file: tutorials/AI_in_Practice_Day2_2_Transformers.md
+          #- file: tutorials/AI_in_Practice_Day2_3_Hugging_Face.ipynb
+          - file: tutorials/AI_in_Practice_Day2_4_Multimodal.md
+            title: 'Multimodal Models (Slides)'
+          - file: tutorials/AI_in_Practice_Day2_4_CLIP.ipynb
+            title: 'CLIP Notebook'
+          - file: tutorials/AI_in_Practice_Day4_1_XAI.md
+            title: 'Interpreting & Communicating Results (Slides)'
 
-- caption: FAQ
-  chapters:
-    - file: faq
-- caption: CoC
-  chapters:
-    - file: CoC
-- caption: Preparation
-  chapters:
-    - file: preliminary/index
-#    - file: preliminary/checklist
-#    - file: preliminary/git
-- caption: Projects
-  chapters:
-   - file: projects/index
+  - caption: FAQ
+    chapters:
+      - file: faq
+  - caption: CoC
+    chapters:
+      - file: CoC
+  - caption: Preparation
+    chapters:
+      - file: preliminary/index
+  #    - file: preliminary/checklist
+  #    - file: preliminary/git
+  - caption: Projects
+    chapters:
+    - file: projects/index
 # - caption: Reference
 #  chapters:
 #    - file: reference/glossary
