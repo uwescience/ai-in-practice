@@ -70,8 +70,8 @@ tabs:
   - title: 'Language Models with Transformers'
     description: null
     time: 10:15 - 11:15
-  - title: 'Multimodal Models'
-    description: 'Vision transformers, contrastive language-image pretraining'
+  - title: 'Project Introduction'
+    description: null
     time: 11:20 - 12:00
   - title: LUNCH
     description: null
@@ -79,12 +79,13 @@ tabs:
   - title: Hugging Face Ecosystem
     description: 'Loading pretrained models, fine-tuning'
     time: 13:00 - 14:00
-  - title: Project Introduction & Scoping
+  - title: 'Multimodal Models'
+    description: 'Vision transformers, contrastive language-image pretraining'
+    time: 14:00 - 14:30
+  - title: 'Project Scoping & Consulting'
     description: null
-    time: 14:15 - 15:45
-  - title: Project Consulting
-    description: null
-    time: 15:45 - 17:00
+    time: 14:40 - 17:00
+
 - title: Day 3
   date: Wednesday 29 July
   contents:
