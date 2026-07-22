@@ -13,7 +13,9 @@ Below you'll find a table keeping track of all tutorials presented at this event
 | Tue 3| Hugging Face Ecosystem | Joseph Hellerstein | - |
 | Tue 4| Multimodal Models | Valentina Staneva | [Slides](https://docs.google.com/presentation/d/e/2PACX-1vSuL2101mqCTj_9_Qf4CfPXMK8DAg1iopDH48kxluh8XSwfSveUFsnPNeFJrdavbSqzJo0KlbsAoyZ0/pubembed?start=false&loop=false&delayms=3000), [Colab](https://colab.research.google.com/drive/1H0XzwBHbTNRxYOclV_Xhxd-_aEJcH9Ss?usp=sharing) |
 | Wed 1 | Scaling AI| Scott Henderson | [Demo](https://github.com/uw-escience-cloudbank/skypilot-demo) | 
-| Wed 2 | <a href="computing-resources/cloudbank.html" target="_blank" rel="noopener noreferrer">Computing Resources Overview</a> | Anthony Arendt, Kristen Finch, Kenny Lam | - | 
+| Wed 2 | Computing Resources | Anthony Arendt, Kristen Finch, Kenny Lam | <a href="computing-resources/cloudbank.html" target="_blank" rel="noopener noreferrer">Cloudbank Slides</a> | 
 | Wed 3 | GenAI for Software Development | Anthony Arendt | - | 
 | Thu 1| Interpretability | Valentina Staneva | [Slides](https://docs.google.com/presentation/d/e/2PACX-1vQr-cHUSob80J4acmuhKQwu4gX02jVVnczg4-v9bCQ0EFoE80mazQBGFhfI3neJOrvFIzQW4xn8NXfP/pubembed?start=false&loop=false&delayms=3000), [Notebook](https://colab.research.google.com/drive/18UykdAmpQQOR-odA3TCK9yl_mppCYxM9?usp=sharing) | 
 | Fri 1| Reproducibility | - | 
+
+
