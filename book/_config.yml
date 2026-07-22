@@ -13,7 +13,7 @@ parse:
     hackweek: "AI in Practice Summer Institute"
     dates: "July 27-31, 2026"
     github_org_url: "https://github.com/uwescience"
-    book_repo: "jupyterbook-template"
+    book_repo: "ai-in-practice"
     website_url: "https://ai-in-practice.uwescience.org/"
     jupyterhub_url: "https://INSERT_JUPYTERHUB_URL"
     slack_workspace_url: "https://INSERT_SLACK_URL"
@@ -53,7 +53,7 @@ launch_buttons:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/uwhackweek/jupyterbook-template # Online location of your book
+  url: https://github.com/uwescience/ai-in-practice # Online location of your book
   path_to_book: book  # Optional path to your book, relative to the repository root
   branch: main  # Which branch of the repository should be used when creating links (optional)
 
