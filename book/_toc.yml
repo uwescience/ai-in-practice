@@ -26,21 +26,23 @@ parts:
             title: 'Vision Models (Slides)'
           - file: tutorials/AI_in_Practice_Day1_2_CNN_Flowers.ipynb
             title: 'CNN Classification Notebook'
-          #- file: tutorials/AI_in_Practice_Day1_3_Transfer_Learning.ipynb
-          #- file: tutorials/AI_in_Practice_Day1_4_Sequence_Models.ipynb
+          - file: tutorials/AI_in_Practice_Day1_3_Transfer_Learning.ipynb
+          - file: tutorials/AI_in_Practice_Day1_4_Sequence_Models.ipynb
       - file: tutorials/ai_lifecycle.md
         title: 'Deep Dive: AI Lifecycle'
         sections:
           - file: tutorials/AI_in_Practice_Day2_1_AI_Lifecycle.md
             title: 'AI Lifecycle Overview (Slides)'
           #- file: tutorials/AI_in_Practice_Day2_2_Transformers.md
-          #- file: tutorials/AI_in_Practice_Day2_3_Hugging_Face.ipynb
+          - file: tutorials/AI_in_Practice_Day2_3_Hugging_Faces.ipynb
           - file: tutorials/AI_in_Practice_Day2_4_Multimodal.md
             title: 'Multimodal Models (Slides)'
           - file: tutorials/AI_in_Practice_Day2_4_CLIP.ipynb
             title: 'CLIP Notebook'
           - file: tutorials/AI_in_Practice_Day4_1_XAI.md
             title: 'Interpreting & Communicating Results (Slides)'
+          - file: tutorials/AI_in_Practice_Day4_1_Interpretability.ipynb
+            title: 'Interpretability (Notebook)'
 
   - caption: FAQ
     chapters:
