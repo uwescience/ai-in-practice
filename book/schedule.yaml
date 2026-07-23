@@ -16,6 +16,8 @@ tabs:
   - title: Introduction to Neural Networks
     description: Training and evaluation workflow, loss function, stochastic gradient descent, fully connected networks
     time: 9:15 - 10:15
+    leads:
+    - Valentina Staneva
   - title: Q&A
     description: null
     time: 10:15 - 10:30
@@ -28,12 +30,16 @@ tabs:
   - title: Q&A
     description: null
     time: 11:45 - 12:00
+    leads: 
+    - Valentina Staneva
   - title: LUNCH
     description: null
     time: 12:00 - 13:00
   - title: Transfer Learning
     description: 'Freezing layers, embeddings, fine-tuning'
     time: 13:00 - 14:00
+    leads: 
+    - Joseph Hellerstein
   - title: Q&A
     description: null
     time: 14:00 - 14:15
@@ -43,6 +49,8 @@ tabs:
   - title: 'Sequence Models'
     description: RNNs, LSTMs, time series tasks
     time: 14:30 - 15:30
+    leads: 
+    - Vedant Somani
   - title: Q&A
     description: null
     time: 15:30 - 15:45
@@ -64,27 +72,39 @@ tabs:
   - title: AI Lifecycle Overview
     description: null
     time: 9:15 - 9:45
+    leads: 
+    - Valentina Staneva
   - title: Ice Breaker
     description: null
     time: 9:45 - 10:15
   - title: 'Language Models with Transformers'
     description: null
     time: 10:15 - 11:15
+    leads: 
+    - Vedant Somani
   - title: 'Project Introduction'
     description: null
     time: 11:20 - 12:00
+    leads: 
+    - Anthony Arendt
   - title: LUNCH
     description: null
     time: 12:00 - 13:00
   - title: Hugging Face Ecosystem
     description: 'Loading pretrained models, fine-tuning'
     time: 13:00 - 14:00
+    leads: 
+    - Joseph Hellerstein
   - title: 'Multimodal Models'
     description: 'Vision transformers, contrastive language-image pretraining'
     time: 14:00 - 14:30
+    leads: 
+    - Valentina Staneva
   - title: 'Project Scoping & Consulting'
     description: null
     time: 14:40 - 17:00
+    leads: 
+    - Anthony Arendt
 
 - title: Day 3
   date: Wednesday 29 July
@@ -95,9 +115,15 @@ tabs:
   - title: 'Scaling AI'
     description: 'SkyPilot: scaling workflows on any infrastructure'
     time: 9:00 - 10:00
+    leads: 
+    - Scott Henderson
   - title: Computing Resources Overview
     description: 'Overview of available resources to UW researchers: Hyak, Tillicum, cloud credits'
     time: 10:00 - 10:30
+    leads: 
+    - Anthony Arendt
+    - Kristen Finch
+    - Kenny Lam
   - title: BREAK
     description: null
     time: 10:30 - 10:45
@@ -110,6 +136,8 @@ tabs:
   - title: GenAI for Software Development
     description: null
     time: 13:00 - 14:00
+    leads: 
+    - Anthony Arendt
   - title: Project Work
     description: null
     time: 14:00 - 17:00
@@ -122,6 +150,8 @@ tabs:
   - title: Communicating Results/Interpretability
     description: null
     time: 9:00 - 10:00
+    leads: 
+    - Valentina Staneva
   - title: BREAK
     description: null
     time: 10:00 - 10:15
@@ -131,24 +161,27 @@ tabs:
   - title: LUNCH
     description: null
     time: 12:00 - 13:00
-  - title: Improving Project Reproducibility
+  - title: AI2 Visit (optional)
     description: null
-    time: 13:00 - 14:00
+    time: 14:40 - 16:00
   - title: Project Work
     description: null
-    time: 14:00 - 17:00
+    time: 16:00 - 17:00
 - title: Day 5
   date: Friday 31 July
   contents:
   - title: Building Access
     description: null
     time: 8:40 - 9:00
+  - title: Improving Project Reproducibility
+    description: null
+    time: 9:00 - 9:30
   - title: Feedback
     description: null
-    time: 9:00 - 9:15
+    time: 9:30 - 9:45
   - title: Project Work
     description: null
-    time: 9:15 - 12:00
+    time: 9:45 - 12:00
   - title: LUNCH
     description: null
     time: 12:00 - 13:00
