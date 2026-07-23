@@ -155,7 +155,8 @@ tabs:
   - title: Ethics Discussion
     description: null
     time: 10:00 - 11:00
-    leads: Sikha Pentyala
+    leads: 
+    - Sikha Pentyala
   - title: Project Work
     description: null
     time: 10:15 - 12:00
