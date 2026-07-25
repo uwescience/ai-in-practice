@@ -33,7 +33,8 @@ parts:
         sections:
           - file: tutorials/AI_in_Practice_Day2_1_AI_Lifecycle.md
             title: 'AI Lifecycle Overview (Slides)'
-          #- file: tutorials/AI_in_Practice_Day2_2_Transformers.md
+          - file: tutorials/AI_in_Practice_Day2_2_Transformers_slides.md
+          - file: tutorials/AI_in_Practice_Day2_2_Transformers.ipynb
           - file: tutorials/AI_in_Practice_Day2_3_Hugging_Faces.ipynb
           - file: tutorials/AI_in_Practice_Day2_4_Multimodal.md
             title: 'Multimodal Models (Slides)'
