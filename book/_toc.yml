@@ -34,9 +34,9 @@ parts:
           - file: tutorials/AI_in_Practice_Day2_1_AI_Lifecycle.md
             title: 'AI Lifecycle Overview (Slides)'
           - file: tutorials/AI_in_Practice_Day2_2_Transformers_slides.md
-            title: 'Language Models with Transformers (Slides)'
+            title: 'Transformers (Slides)'
           - file: tutorials/AI_in_Practice_Day2_2_Transformers.ipynb
-            title: 'Language Models with Transformers (Notebook)'
+            title: 'Transformers (Notebook)'
           - file: tutorials/AI_in_Practice_Day2_3_Hugging_Face.ipynb
           - file: tutorials/AI_in_Practice_Day2_4_Multimodal.md
             title: 'Multimodal Models (Slides)'
