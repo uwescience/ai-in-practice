@@ -10,7 +10,7 @@ Below you'll find a table keeping track of all tutorials presented at this event
 | Mon 4| Sequence Models | Vedant Somani | [Colab](https://colab.research.google.com/drive/1G3AEEtYVLLwzC9dk_PZSRGfAUsLclhCq?usp=sharing) | 
 | Tue 1| AI Lifecycle Overview | Valentina Staneva | [Slides](https://docs.google.com/presentation/d/e/2PACX-1vRhnzSq9sOWuTfARlKm9qw215DhC5ou74lSuDJwgs3bTiyS8IwFIiaZLgyw0joGtxUxCiQNNNzL4Bo5/pubembed?start=false&loop=false&delayms=3000) | 
 | Tue 2| Language Models with Transformers | Vedant Somani | [Slides](https://docs.google.com/presentation/d/e/2PACX-1vRhnzSq9sOWuTfARlKm9qw215DhC5ou74lSuDJwgs3bTiyS8IwFIiaZLgyw0joGtxUxCiQNNNzL4Bo5/pubembed?start=false&loop=false&delayms=3000), [Colab](https://colab.research.google.com/drive/1vxLHoSxFGY-nF8BclPDeeipZDYszjer8?usp=sharing) |
-| Tue 3| Hugging Face Ecosystem | Joseph Hellerstein | https://colab.research.google.com/drive/10yW7lUWXZSNHXZyFmYhJiepbax3uksAT?usp=drive_link |
+| Tue 3| Hugging Face Ecosystem | Joseph Hellerstein | [Colab](https://colab.research.google.com/drive/10yW7lUWXZSNHXZyFmYhJiepbax3uksAT?usp=drive_link) |
 | Tue 4| Multimodal Models | Valentina Staneva | [Slides](https://docs.google.com/presentation/d/e/2PACX-1vSuL2101mqCTj_9_Qf4CfPXMK8DAg1iopDH48kxluh8XSwfSveUFsnPNeFJrdavbSqzJo0KlbsAoyZ0/pubembed?start=false&loop=false&delayms=3000), [Colab](https://colab.research.google.com/drive/1H0XzwBHbTNRxYOclV_Xhxd-_aEJcH9Ss?usp=sharing) |
 | Wed 1 | Scaling AI| Scott Henderson | [Demo](https://github.com/uw-escience-cloudbank/skypilot-demo) | 
 | Wed 2 | Computing Resources | Anthony Arendt, Kristen Finch, Kenny Lam | <a href="computing-resources/cloudbank.html" target="_blank" rel="noopener noreferrer">Cloudbank Slides</a> | 
