@@ -180,6 +180,8 @@ tabs:
   - title: Improving Project Reproducibility
     description: null
     time: 9:00 - 9:30
+    leads:
+    - Jose Cols
   - title: Feedback
     description: null
     time: 9:30 - 9:45
