@@ -18,6 +18,7 @@ banner:
   image: assets/images/collage-manual-no-logo.png
 # The opening session of the event with UTC offset
 event_countdown: "2026-07-27T08:30:00-07:00"
+helpers:
 about:
   description: Join us for a week of hands-on training in 
     AI methods for research, facilitated project work, and self-directed 
