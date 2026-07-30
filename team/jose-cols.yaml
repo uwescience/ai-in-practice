@@ -1,0 +1,21 @@
+- title: Jose Cols
+  avatar: https://avatars.githubusercontent.com/u/1408509?v=4
+  role: Research Engineer
+  organizations:
+    - name: eScience Institute
+  bio: >-
+    Jose is a Research Engineer at the eScience Institute. In his role, he
+    supports research projects involving natural language processing, text
+    mining, and large-scale data processing. He also teaches workshops and
+    brings expertise in software engineering and data science to turn
+    prototypes into reproducible, efficient pipelines.
+  expertise:
+    - Computational Linguistics
+    - Language Representation
+    - Machine Translation
+    - Systems for Machine Learning
+  social:
+    - icon: github
+      link: https://github.com/josecols
+  user_groups:
+    - Instructor
