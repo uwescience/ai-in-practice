@@ -17,6 +17,6 @@ Below you'll find a table keeping track of all tutorials presented at this event
 | Wed 2 | Computing Resources | Anthony Arendt, Kristen Finch, Kenny Lam | <a href="computing-resources/cloudbank.html" target="_blank" rel="noopener noreferrer">Cloudbank Slides</a> |
 | Wed 3 | GenAI for Software Development | Anthony Arendt, Don Setiawan | <a href="genai/genai-tutorial.html" target="_blank" rel="noopener noreferrer">genai Slides</a> |
 | Thu 1| Interpretability | Valentina Staneva | [Slides](https://docs.google.com/presentation/d/e/2PACX-1vQr-cHUSob80J4acmuhKQwu4gX02jVVnczg4-v9bCQ0EFoE80mazQBGFhfI3neJOrvFIzQW4xn8NXfP/pubembed?start=false&loop=false&delayms=3000), [Notebook](https://colab.research.google.com/drive/18UykdAmpQQOR-odA3TCK9yl_mppCYxM9?usp=sharing) |
-| Fri 1| Reproducibility | - |
+| Fri 1| Reproducibility | Jose Cols | [Slides](https://docs.google.com/presentation/d/1FBnMpgYmytBsu2PxPDMzofeYGCI0N7iQbErjioyJfiw/edit?usp=drive_link)
 
 
